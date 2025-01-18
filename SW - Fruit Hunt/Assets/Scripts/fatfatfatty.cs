@@ -16,6 +16,14 @@ public class fatfatfatty : MonoBehaviour
     {
         
     }
+
+    public void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Fruit")
+        {
+            Destroy(collision.gameObject);
+        }
+    }
 }
 
 
