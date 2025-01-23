@@ -697,3 +697,16 @@ public class fatfatfatty : MonoBehaviour
 // B: I'm inclusive, unlike you. No way!
 // Y/N: Fine. It won't be my fault if you get voted out though!
 // B: Oh, it will be.
+// N: Next round...
+// B: Why am I out first again?! Ugh.
+// N: 25 minutes later...
+// Y/N: I love you all guys! Bye!
+// E: Bye! We'll miss you, Y/N!
+// B: So, you made me lose. How pityful!
+// Y/N: Maybe if you didn't pick Stacey, you'd win.
+// B: I'm including her!
+// Y/N: How generous. You know, you're actually pretty decent.
+// B: Is that supposed to be an insult?
+// Y/N: If it was, it would be more rude.
+// V: I'll see you guys next round! Bye!
+// E: Goodbye!
