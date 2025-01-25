@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Backstory.unity
     guid: 238c1927ebc689d47a30bef407f8520b
+  - enabled: 1
+    path: Assets/Scenes/QuestLog.unity
+    guid: 5e3bc085a63fea940b68bfb9e1c1b62a
   m_configObjects: {}
