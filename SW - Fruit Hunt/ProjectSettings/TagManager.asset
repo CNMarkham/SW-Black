@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fruit
   - eRUs
+  - Scroll
   layers:
   - Default
   - TransparentFX

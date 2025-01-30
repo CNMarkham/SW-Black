@@ -17,9 +17,9 @@ public class fatfatfatty : MonoBehaviour
         
     }
 
-    public void OnCollisionEnter(Collision collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Fruit")
+        if(collision.gameObject.tag == "Fruit" || collision.gameObject.tag == "Scroll")
         {
             Destroy(collision.gameObject);
         }
