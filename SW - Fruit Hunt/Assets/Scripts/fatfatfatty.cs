@@ -21,7 +21,8 @@ public class fatfatfatty : MonoBehaviour
     {
         if(collision.gameObject.tag == "Fruit" || collision.gameObject.tag == "Scroll")
         {
-            Destroy(collision.gameObject);
+            collision.gameObject.SetActive(false);
+            collision.gameObject.GetComponent<ScrollTXT>().BST();
         }
     }
 }
