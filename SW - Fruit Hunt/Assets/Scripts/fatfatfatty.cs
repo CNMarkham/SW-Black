@@ -18,7 +18,7 @@ public class fatfatfatty : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Fruit" || collision.gameObject.tag == "Scroll")
+        if(collision.gameObject.tag == "Fruit" || collision.gameObject.tag == "Scroll" || collision.gameObject.tag == "AirTag")
         {
             collision.gameObject.SetActive(false);
             collision.gameObject.GetComponent<ScrollTXT>().BST();
