@@ -10,6 +10,7 @@ TagManager:
   - AirTag
   - C.N.M
   - Helga
+  - GrassFile
   layers:
   - Default
   - TransparentFX
