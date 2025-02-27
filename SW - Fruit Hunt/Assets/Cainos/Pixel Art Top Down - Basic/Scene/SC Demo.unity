@@ -14999,6 +14999,7 @@ GameObject:
   - component: {fileID: 550565069}
   - component: {fileID: 550565068}
   - component: {fileID: 550565070}
+  - component: {fileID: 550565071}
   m_Layer: 0
   m_Name: suspiciousOwl
   m_TagString: Untagged
@@ -15067,7 +15068,7 @@ Transform:
   m_GameObject: {fileID: 550565067}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.852, y: -5.153, z: -0.0030509708}
+  m_LocalPosition: {x: 15.852, y: -5.153, z: -0.003050971}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15162,6 +15163,27 @@ PolygonCollider2D:
       - {x: 0.27392864, y: -0.32150745}
       - {x: 0.3091999, y: -0.32785448}
   m_UseDelaunayMesh: 0
+--- !u!95 &550565071
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550565067}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2f3d12ee06fb6e54b8014b9323f37a5d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &563320245
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31762,8 +31784,9 @@ GameObject:
   - component: {fileID: 1398701061}
   - component: {fileID: 1398701062}
   - component: {fileID: 1398701063}
+  - component: {fileID: 1398701064}
   m_Layer: 0
-  m_Name: Helga
+  m_Name: Helga.I
   m_TagString: Helga
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32033,6 +32056,27 @@ CircleCollider2D:
   m_Offset: {x: 0.054063458, y: -0.29059207}
   serializedVersion: 2
   m_Radius: 1.764384
+--- !u!95 &1398701064
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398701057}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5443d1c1a4b9d8d49820ffc9e4ab2f01, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1403070016
 PrefabInstance:
   m_ObjectHideFlags: 0
