@@ -10,17 +10,15 @@ public class ScrollTXT : MonoBehaviour
     public Text TextScroll;
 
     public GameObject uGot;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject codes;
 
-    // Update is called once per frame
+    //Once void BST is called...
     public void BST()
     {
+        //The gameObject uGot SetActive true, scrollTxt says what TextScroll is set to, and code button collision.
         uGot.gameObject.SetActive(true);
         TextScroll.text = scrollTxt;
+        //if(codes)
     }
 }
 
