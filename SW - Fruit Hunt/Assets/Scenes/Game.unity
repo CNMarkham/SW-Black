@@ -378,6 +378,7 @@ MonoBehaviour:
   scrollTxt: 'You found Clue 2. Your fruit is a: Cherry. Your code is: 7542'
   TextScroll: {fileID: 1476757849}
   uGot: {fileID: 923796967}
+  codes: {fileID: 0}
 --- !u!114 &21110324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6391,6 +6392,7 @@ MonoBehaviour:
   scrollTxt: 'You found Clue 5. Your fruit is a: Lemon. Your code is: 1842'
   TextScroll: {fileID: 1476757849}
   uGot: {fileID: 923796967}
+  codes: {fileID: 0}
 --- !u!114 &241815611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7800,6 +7802,7 @@ MonoBehaviour:
   scrollTxt: 'You found Clue 7. Your fruit is a: Kiwi. Your code is: 4792'
   TextScroll: {fileID: 1476757849}
   uGot: {fileID: 923796967}
+  codes: {fileID: 0}
 --- !u!114 &372375156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14374,6 +14377,7 @@ MonoBehaviour:
   scrollTxt: 'You found Clue 8. Your fruit is a: Watermelon. Your code is: 8037'
   TextScroll: {fileID: 1476757849}
   uGot: {fileID: 923796967}
+  codes: {fileID: 0}
 --- !u!114 &486083848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17657,6 +17661,7 @@ MonoBehaviour:
   scrollTxt: 'You found Clue 6. Your fruit is a: Grape. Your code is: 3168'
   TextScroll: {fileID: 1476757849}
   uGot: {fileID: 923796967}
+  codes: {fileID: 0}
 --- !u!114 &695930790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20706,6 +20711,7 @@ MonoBehaviour:
   scrollTxt: 
   TextScroll: {fileID: 0}
   uGot: {fileID: 923796967}
+  codes: {fileID: 0}
 --- !u!1001 &928987253
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23393,6 +23399,7 @@ MonoBehaviour:
   scrollTxt: 'You found Clue 1. Your fruit is an: Apple. Your code is: 0934'
   TextScroll: {fileID: 1476757849}
   uGot: {fileID: 923796967}
+  codes: {fileID: 0}
 --- !u!114 &1097504342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37700,6 +37707,7 @@ MonoBehaviour:
   scrollTxt: You found the airtag! You'll know what to do with it later.
   TextScroll: {fileID: 1476757849}
   uGot: {fileID: 923796967}
+  codes: {fileID: 0}
 --- !u!60 &1697295779
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -38619,6 +38627,7 @@ MonoBehaviour:
   scrollTxt: 'You found Clue 4. Your fruit is a: Strawberry. Your code is: 5764'
   TextScroll: {fileID: 1476757849}
   uGot: {fileID: 923796967}
+  codes: {fileID: 0}
 --- !u!114 &1768839264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40850,6 +40859,7 @@ MonoBehaviour:
   scrollTxt: 'You found Clue 3. Your fruit is a: Banana. Your code is: 1207'
   TextScroll: {fileID: 1476757849}
   uGot: {fileID: 923796967}
+  codes: {fileID: 0}
 --- !u!114 &1890910628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42948,6 +42958,7 @@ MonoBehaviour:
   scrollTxt: 
   TextScroll: {fileID: 1476757849}
   uGot: {fileID: 0}
+  codes: {fileID: 0}
 --- !u!114 &2068551092
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 73979547}
   - component: {fileID: 73979546}
   m_Layer: 5
-  m_Name: FactBox
+  m_Name: GuideBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2087,29 +2087,21 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Additional facts:
+  m_text: 'Guide:
 
-    1. You can talk to all visible tomatoes (Go near
-    them).
+    1. Use WASD to move (arrow keys don''t work)
 
-    2. You can only find Rob after talking to other tomatoes.
+    2. Talk
+    to the first 2 tomatoes you see only first
 
-    3.
-    You can spot a suspicious owl during the gameplay.
+    3. Collect fruits and codes that
+    you can find
 
-    4. Behind the smiles
-    of the tomatoes is a dark truth.
+    4. Press the "codes" button to see your current collected codes.
+    It''ll be useful for the boss fight
 
-    5. Credits could possibly include you,
-    if you were friendly.
-
-    6. My game plan had way more ideas than the final
-    product.
-
-    7. The Bob theory goes way back (Only few remember).
-
-    8. My
-    largest inspiration to make this game was myself.'
+    5. Don''t waste time. After 500 secs
+    you''ll restart'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2136,14 +2128,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40.88
-  m_fontSizeBase: 40.88
+  m_fontSize: 51.88
+  m_fontSizeBase: 51.88
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0

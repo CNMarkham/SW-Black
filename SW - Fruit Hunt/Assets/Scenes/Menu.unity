@@ -1708,7 +1708,7 @@ GameObject:
   - component: {fileID: 688679160}
   - component: {fileID: 688679159}
   m_Layer: 5
-  m_Name: faitsTXT
+  m_Name: gudsTXT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1753,7 +1753,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: flannels
+  m_text: griddy
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1928,7 +1928,7 @@ GameObject:
   - component: {fileID: 769984427}
   - component: {fileID: 769984430}
   m_Layer: 5
-  m_Name: faitsButton
+  m_Name: griddyButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
