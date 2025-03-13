@@ -18504,8 +18504,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Something bad must have happened. Everyone thinks Rob has some kind of
-    part in Bob's case. I don't know. Talk to him and find out. He should be in the
-    summoning zone.
+    part in Bob's case, but I don't know. Talk to him and find out. He should be
+    in the summoning zone.
 --- !u!222 &750527281
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23985,9 +23985,10 @@ GameObject:
   - component: {fileID: 1137492648}
   - component: {fileID: 1137492650}
   - component: {fileID: 1137492651}
+  - component: {fileID: 1137492652}
   m_Layer: 0
   m_Name: realrobbie
-  m_TagString: Untagged
+  m_TagString: Rob
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24052,13 +24053,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1137492647}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.008726558, w: 0.999962}
   m_LocalPosition: {x: 4.16553, y: 4.4438944, z: -0.0030509708}
   m_LocalScale: {x: 0.5621, y: 0.2451, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 145031095}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1}
 --- !u!60 &1137492650
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -24267,9 +24268,30 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.00000042415687, y: 0.32212672}
+  m_Offset: {x: -0.018628618, y: -2.1253462}
   serializedVersion: 2
-  m_Radius: 2.259539
+  m_Radius: 1.1921712
+--- !u!95 &1137492652
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137492647}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c118af74b333c4d4d91b1cf756737a63, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1144802543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25118,6 +25140,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d69371a87148ee4dac7b2b814437ffd, type: 3}
+--- !u!1 &1191224112 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5062480838961212805, guid: 4d0806bfbab85aa4bb6b62fd57e602fb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1480699745406430506}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1192309858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31261,6 +31289,7 @@ GameObject:
   - component: {fileID: 1233638077}
   - component: {fileID: 1233638076}
   - component: {fileID: 1233638078}
+  - component: {fileID: 1233638079}
   m_Layer: 0
   m_Name: BOB
   m_TagString: Untagged
@@ -31328,13 +31357,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1233638075}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0.008726558, y: 0, z: 0, w: 0.999962}
   m_LocalPosition: {x: 4.17853, y: 5.563895, z: -0.0030509708}
   m_LocalScale: {x: 0.584, y: 0.2516, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 145031095}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 1, y: 0, z: 0}
 --- !u!60 &1233638078
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -31447,6 +31476,27 @@ PolygonCollider2D:
       - {x: -0.305, y: -0.615}
       - {x: 0.015, y: -0.60499996}
   m_UseDelaunayMesh: 0
+--- !u!95 &1233638079
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233638075}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fda4d6323f6ae154a880ba6447f16995, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1236211214
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32470,7 +32520,7 @@ MonoBehaviour:
     -------------------------------------------------------------------------------
 
     Collect
-    all 7 clues
+    all "9" clues
 
     -------------------------------------------------------------------------------
 
@@ -32489,7 +32539,8 @@ MonoBehaviour:
 
     -------------------------------------------------------------------------------
 
-    Disarm...'
+    ??????
+    ????, ??? ???? ? ??????'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -36733,6 +36784,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1480699745406430506}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1622224638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191224112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b867f24332fbd7e4d97ae8356600e0bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1622312049
 GameObject:
   m_ObjectHideFlags: 0
@@ -42889,6 +42952,7 @@ GameObject:
   - component: {fileID: 2068551090}
   - component: {fileID: 2068551091}
   - component: {fileID: 2068551092}
+  - component: {fileID: 2068551093}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -42973,6 +43037,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   airTag: {fileID: 1697295775}
   bomb: {fileID: 97655857}
+--- !u!114 &2068551093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068551087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f89451a959e92438bba4c792b1da31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uGot: {fileID: 923796967}
+  Codes: {fileID: 1062644001}
 --- !u!1001 &2070214719
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44413,7 +44491,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5062480838961212805, guid: 4d0806bfbab85aa4bb6b62fd57e602fb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1622224638}
   m_SourcePrefab: {fileID: 100100000, guid: 4d0806bfbab85aa4bb6b62fd57e602fb, type: 3}
 --- !u!1001 &1596426220725145047
 PrefabInstance:

@@ -2,11 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class uGotAndCodes : MonoBehaviour
+public class RobDoesBigDamage : MonoBehaviour
 {
-    public GameObject uGot;
-    public GameObject Codes;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -16,9 +13,14 @@ public class uGotAndCodes : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(uGot.activeInHierarchy && Codes.activeInHierarchy)
+        
+    }
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Rob")
         {
-            Codes.SetActive(false);
+            Debug.Log("You just lost health for your dumb mistake");
         }
     }
 }
