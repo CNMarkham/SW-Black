@@ -16,8 +16,10 @@ public class uGotAndCodes : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //if uGot and Codes are both SetActive in the hierarchy
         if(uGot.activeInHierarchy && Codes.activeInHierarchy)
         {
+            //the Codes gameObject SetActive false
             Codes.SetActive(false);
         }
     }

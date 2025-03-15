@@ -17,8 +17,10 @@ public class TactScene: MonoBehaviour
 
     }
 
+    //once clicked...
     public void OnMouseDown()
     {
+        //load scene 4
         SceneManager.LoadScene(4);
     }
 }

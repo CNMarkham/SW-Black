@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 public class TimersCountdown : MonoBehaviour
 {
     public Text lapTime;
-    public Text startCountdown;
 
     public float totalLapTime;
     public float totalCountdownTime;
@@ -15,32 +14,22 @@ public class TimersCountdown : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         //Invoke("PabloEscobar", 3.0f);
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        //making lapTime.text the totalLapTime's value
         lapTime.text = Mathf.Round(totalLapTime).ToString();
         //startCountdown.text = Mathf.Round(totalCountdownTime).ToString();
 
-        if (totalCountdownTime > 0)
-        {
-            totalCountdownTime -= Time.deltaTime;
-        }
-
-        if (totalCountdownTime <= 0)
-        {
-            //startCountdown.text = string.Empty;
-            totalLapTime -= Time.deltaTime;
-            lapTime.text = Mathf.Round(totalLapTime).ToString();
-        }
+        //Stop reading this
+        totalLapTime -= Time.deltaTime;
 
         if (totalLapTime < 0)
         {
-            Debug.Log("TIME UP LOSER.");
+            Debug.Log("lololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololoHaHaYouSucklololololololololololololololololololololololol.");
             SceneManager.LoadScene(0);
         }
     }

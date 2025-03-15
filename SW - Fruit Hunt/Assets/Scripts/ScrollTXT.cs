@@ -15,10 +15,10 @@ public class ScrollTXT : MonoBehaviour
     //Once void BST is called...
     public void BST()
     {
-        //The gameObject uGot SetActive true, scrollTxt says what TextScroll is set to, and code button collision.
+        //The gameObject uGot SetActive true
         uGot.gameObject.SetActive(true);
+        //scrollTxt says what TextScroll is set to, and code button collision.
         TextScroll.text = scrollTxt;
-        //if(codes)
     }
 }
 
