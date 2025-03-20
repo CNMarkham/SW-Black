@@ -4,19 +4,26 @@ using UnityEngine;
 
 namespace Cainos.PixelArtTopDown_Basic
 {
-    public class TopDownCharacterController : MonoBehaviour
+    public class Player: MonoBehaviour
     {
         public float speed;
 
         private Animator animator;
 
-        private void Start()
+        public int maxHealth = 100;
+        public int currentHealth;
+
+        public HealthBar healthBar;
+
+        void Start()
         {
             animator = GetComponent<Animator>();
+            currentHealth = maxHealth;
+            healthBar.SetMaxHealth(maxHealth);
         }
 
 
-        private void Update()
+        void Update()
         {
             Vector2 dir = Vector2.zero;
             if (Input.GetKey(KeyCode.A))
@@ -45,6 +52,148 @@ namespace Cainos.PixelArtTopDown_Basic
             animator.SetBool("IsMoving", dir.magnitude > 0);
 
             GetComponent<Rigidbody2D>().velocity = speed * dir;
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                TakeDamage(10);
+            }
+        }
+
+        void TakeDamage(int damage)
+        {
+            currentHealth -= damage;
+            healthBar.SetHealth(currentHealth);
         }
     }
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//I genuinely feel bad for your poor soul. It's unfortunate your fate has led you to this tragic time. However, no matter how hard you try to escape this rise of terror, you'll never succeed. All corners are closed and watched over, on every place on this planet. You can try to run or hide, but I guarentee you'll never make it. Try it for yourself, if you're willing to take the risk and most likely get executed sooner.
