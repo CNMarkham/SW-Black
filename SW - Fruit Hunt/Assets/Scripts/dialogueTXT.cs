@@ -6,6 +6,8 @@ public class CNMDialogueTXT : MonoBehaviour
 {
     public GameObject CNMBox;
     public GameObject HelgaBox;
+
+    public GameObject BobKidBox;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +39,11 @@ public class CNMDialogueTXT : MonoBehaviour
         {
             //making Helga's dialogue box appear when we collide with the trigger
             HelgaBox.SetActive(true);
+        }
+
+        if(collision.gameObject.tag == "Player" && gameObject.tag == "KidKidKidKinderSurprise")
+        {
+            BobKidBox.SetActive(true);
         }
     }
 

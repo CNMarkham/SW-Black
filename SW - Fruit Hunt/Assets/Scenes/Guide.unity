@@ -159,8 +159,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -19}
-  m_SizeDelta: {x: 1136.6646, y: 467.0179}
+  m_AnchoredPosition: {x: 0, y: -30.4501}
+  m_SizeDelta: {x: 1136.6646, y: 566.0023}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &73979546
 MonoBehaviour:
@@ -2065,7 +2065,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 23}
+  m_AnchoredPosition: {x: 0, y: 27.6}
   m_SizeDelta: {x: 950.7771, y: 469.817}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1740998902
@@ -2102,7 +2102,11 @@ MonoBehaviour:
     "codes" button to see your current collected codes. It''ll be useful for the
     boss fight
 
-    5. Don''t waste time. After 500 secs you''ll restart'
+    5. Don''t waste time. After 500 secs you''ll restart
+
+    6.
+    Place your left hand on WASD and your right hand on the mouse during gameplay
+    (it''ll make it easier)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2859,7 +2863,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 399}
+  m_AnchoredPosition: {x: 0, y: 455.5}
   m_SizeDelta: {x: 950.7771, y: 469.817}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2094424038
