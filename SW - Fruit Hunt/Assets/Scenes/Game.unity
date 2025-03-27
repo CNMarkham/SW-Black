@@ -19941,9 +19941,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: It's okay if you say no. But can I show you something, at least? Sure?
-    Yay! *Does his stupid little Kung Fu* Wasn't that so awesome? I want to be a
-    guard one day when I grow up.
+  m_Text: I feel so broken! And it's only been a few hours. Can I show you something,
+    at least? Sure? Yay! *Does something...?* Wasn't that so awesome? I want to be
+    a guard one day.
 --- !u!222 &775999701
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22199,9 +22199,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hihihi! You must be Agent Mushy. Uncle Rob has been very stressed since
-    he heard you were coming over! He doesn't like guests. He's always panicking
-    now, and that's no fun.
+  m_Text: Hihihi! You must be Agent Mushy! Uncle Rob has been very worried since
+    he heard you were coming over! He doesn't like guests. He's always stressed out
+    now, and sadly that's no fun.
 --- !u!222 &951993094
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25602,8 +25602,10 @@ GameObject:
   - component: {fileID: 1137492650}
   - component: {fileID: 1137492651}
   - component: {fileID: 1137492652}
+  - component: {fileID: 1137492653}
+  - component: {fileID: 1137492654}
   m_Layer: 0
-  m_Name: realrobbie
+  m_Name: Rob
   m_TagString: Rob
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25884,9 +25886,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.013403463, y: -1.4388363}
+  m_Offset: {x: -0.0019972087, y: 0.059773374}
   serializedVersion: 2
-  m_Radius: 1.4915649
+  m_Radius: 0.8380064
 --- !u!95 &1137492652
 Animator:
   serializedVersion: 5
@@ -25908,6 +25910,49 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1137492653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137492647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8b27e21fbc0876458db7c540db567ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  RobMoveDirection: {x: 0, y: 0, z: 0}
+  Rob: {fileID: 1137492647}
+  PlayE: {fileID: 1191224112}
+--- !u!50 &1137492654
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137492647}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &1144802543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35788,7 +35833,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: Sadly, Daddy won't let me become a guard. He said I have to rule when I
     get older, just like him. I have to be like the boss of the kingdom, but that's
-    scary. I don't like to be bossy.
+    scary. Now he's gone and I feel sad.
 --- !u!222 &1468238437
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -45504,8 +45549,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: I miss the old Uncle Rob, where he was fun to play with. Now he won't even
-    talk to me, and Helga says it's because of my father. I refuse to believe her.
-    You'll play with me, right?
+    talk to me, and Helga says it's because of my father, but I refuse to believe
+    her. And now Daddy's gone.
 --- !u!222 &2079741732
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -46583,7 +46628,7 @@ PrefabInstance:
     - target: {fileID: 5062480838961212805, guid: 4d0806bfbab85aa4bb6b62fd57e602fb,
         type: 3}
       propertyPath: m_Name
-      value: PF Player
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5258429854974495071, guid: 4d0806bfbab85aa4bb6b62fd57e602fb,
         type: 3}
