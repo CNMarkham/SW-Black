@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CNMDialogueTXT : MonoBehaviour
+public class DialogueTXT : MonoBehaviour
 {
     public GameObject CNMBox;
     public GameObject HelgaBox;

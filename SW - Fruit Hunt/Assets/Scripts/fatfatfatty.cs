@@ -19,7 +19,7 @@ public class fatfatfatty : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D collision)
     {
         //if the tag is either fruit, scroll or airtag
-        if(collision.gameObject.tag == "Fruit" || collision.gameObject.tag == "Scroll" || collision.gameObject.tag == "AirTag")
+        if(collision.gameObject.tag == "Fruit" || collision.gameObject.tag == "Scroll" || collision.gameObject.tag == "AirTag" || collision.gameObject.tag == "Extra")
         {
             //gameObject SetActive false (which means it's not visible) and make the scroll text appear with the code
             collision.gameObject.SetActive(false);

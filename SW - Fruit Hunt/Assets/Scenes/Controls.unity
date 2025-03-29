@@ -1810,7 +1810,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: (Arrow keys don't work)
+  m_Text: Update 2.9 - Arrow keys work
 --- !u!222 &826663234
 CanvasRenderer:
   m_ObjectHideFlags: 0
