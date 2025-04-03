@@ -13,6 +13,7 @@ public class codeTXT : MonoBehaviour
 
     public void CH()
     {
+        //make the gameObject "TextCode"'s text equal to what codeTXT is set to.
         TextCode.text = codeTxt;
     }
 }

@@ -20,9 +20,12 @@ public class RobChase : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Rob's direction is the player's position minus the transform.position of the original setting
         RobMoveDirection = PlayE.transform.position - transform.position;
 
+        //hazardrigidbody is equal to rob's component Rigidbody2D
         Rigidbody2D hazardrigidBody = Rob.GetComponent<Rigidbody2D>();
+        //hazardrigidbody.velocity is equal to rob's direction (i have no clue what ".normalized" or "* speed" means...)
         hazardrigidBody.velocity = RobMoveDirection.normalized * speed;
     }
 }

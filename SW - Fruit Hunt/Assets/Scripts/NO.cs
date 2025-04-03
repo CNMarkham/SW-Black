@@ -20,6 +20,7 @@ public class NO : MonoBehaviour
 
     public void OnMouseDown()
     {
+        //the eRUs gameObject will disappear.
         eRUs.gameObject.SetActive(false);
     }
 }

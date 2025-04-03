@@ -19,6 +19,7 @@ public class CTRLScene : MonoBehaviour
 
     public void OnMouseDown()
     {
+        //load scene 2/controls scene.
         SceneManager.LoadScene(2);
     }
 }

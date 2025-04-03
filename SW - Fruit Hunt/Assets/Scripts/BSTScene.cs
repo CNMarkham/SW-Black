@@ -19,6 +19,7 @@ public class BSTScene: MonoBehaviour
 
     public void OnMouseDown()
     {
+        //load scene 3/backstory scene once the button is pressed.
         SceneManager.LoadScene(3);
     }
 }

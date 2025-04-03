@@ -25,11 +25,15 @@ public class TimersCountdown : MonoBehaviour
         //startCountdown.text = Mathf.Round(totalCountdownTime).ToString();
 
         //Stop reading this
+        //make totalLapTime minus Time.deltaTime's value
         totalLapTime -= Time.deltaTime;
 
+        //if the total lap time is below or equal to 0...
         if (totalLapTime < 0)
         {
+            //send this lovely message to the console.
             Debug.Log("lololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololoHaHaYouSucklololololololololololololololololololololololol.");
+            //load scene 0/menu so the player has to restart the game haha
             SceneManager.LoadScene(0);
         }
     }

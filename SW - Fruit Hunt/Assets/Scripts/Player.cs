@@ -81,7 +81,9 @@ namespace Cainos.PixelArtTopDown_Basic
 
         void TakeDamage(int damage)
         {
+            //the current health minuses the amount of health taking damage took
             currentHealth -= damage;
+            //updates it.
             healthBar.SetHealth(currentHealth);
         }
 

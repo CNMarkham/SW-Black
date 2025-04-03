@@ -41,8 +41,10 @@ public class DialogueTXT : MonoBehaviour
             HelgaBox.SetActive(true);
         }
 
+        //if we're colliding (onTrigger) with Toby's collider
         if(collision.gameObject.tag == "Player" && gameObject.tag == "KidKidKidKinderSurprise")
         {
+            //making Toby's dialogue box appear when we collide with the trigger
             BobKidBox.SetActive(true);
         }
     }
