@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class uGotAndCodes : MonoBehaviour
+public class codesBttn : MonoBehaviour
 {
     public GameObject uGot;
     public GameObject Codes;

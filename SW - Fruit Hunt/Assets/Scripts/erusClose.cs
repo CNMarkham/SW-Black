@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NO : MonoBehaviour
+public class erusClose : MonoBehaviour
 {
     public GameObject eRUs;
     // Start is called before the first frame update

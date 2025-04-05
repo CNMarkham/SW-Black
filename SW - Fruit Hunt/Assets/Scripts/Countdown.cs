@@ -11,12 +11,6 @@ public class TimersCountdown : MonoBehaviour
     public float totalLapTime;
     public float totalCountdownTime;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        //Invoke("PabloEscobar", 3.0f);
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -33,7 +27,7 @@ public class TimersCountdown : MonoBehaviour
         {
             //send this lovely message to the console.
             Debug.Log("lololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololoHaHaYouSucklololololololololololololololololololololololol.");
-            //load scene 0/menu so the player has to restart the game haha
+            //load scene 0/menu so the player has to restart the game haha... hahaha...?
             SceneManager.LoadScene(0);
         }
     }

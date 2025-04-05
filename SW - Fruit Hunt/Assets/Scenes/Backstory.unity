@@ -1203,8 +1203,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 107.163025, y: -31.749409}
-  m_SizeDelta: {x: 994.3361, y: 147.8979}
+  m_AnchoredPosition: {x: 107.163025, y: -34.752}
+  m_SizeDelta: {x: 994.3361, y: 164.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &369481311
 MonoBehaviour:
@@ -1241,7 +1241,8 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: Agent Mushy, I have an important case for you. But first, I would like
     to know if you are willing to take it on. If so, you must understand that the
-    fate of our town will be in your hands.
+    fate of our town will be in your hands. Of course, I'll give you a moment to
+    think about it...
 --- !u!222 &369481312
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1329,7 +1330,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 107.163025, y: -37.356}
+  m_AnchoredPosition: {x: 107.163025, y: -31.3031}
   m_SizeDelta: {x: 994.3361, y: 159.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &472642056
@@ -3638,7 +3639,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 107.163025, y: -37.356}
+  m_AnchoredPosition: {x: 107.163025, y: -31.3031}
   m_SizeDelta: {x: 994.3361, y: 159.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1540342727
@@ -3674,9 +3675,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The king has disappeared! It took place yesterday at 4:93 a.m. King Bob
-    seems to have gotten kidnapped, according to the castle cameras. He got gagged
-    and the kidnapper took off. That was the last time the king was seen...
+  m_Text: ...The king has disappeared! It took place yesterday at 4:93 a.m. King
+    Bob seems to have gotten kidnapped, according to the castle cameras. He got gagged
+    and the kidnapper took off. That was the last time the king was seen... We need
+    to find our king!
 --- !u!222 &1540342728
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4625,7 +4627,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 107.163025, y: -37.356}
+  m_AnchoredPosition: {x: 107.163025, y: -31.3031}
   m_SizeDelta: {x: 994.3361, y: 159.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1978406975
@@ -4663,7 +4665,8 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: Our team has a few suspects. We got a lead earlier this morning. It's Rob,
     the king's brother. But there's just no way Rob would do that to his younger
-    brother. There's also Helga the hatred maid, and the chef, Neal.
+    brother. There's also Helga the hatred maid, and the chef, Neal. Our majesty's
+    being tricked.
 --- !u!222 &1978406976
 CanvasRenderer:
   m_ObjectHideFlags: 0
