@@ -7,13 +7,13 @@ public class itemCollect : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        //...A function is a set of instructions in a block of code.
+        //There are two types: one that gives back/returns, and one that doesn't.
+        //Some of them have parenthesis/brackets/()
+        //strings are sentences,
+        //floats are decimal numbers,
+        //int(eger)s are non - decimal numbers,
+        //bools are true / false.
     }
 
     public void OnTriggerEnter2D(Collider2D collision)

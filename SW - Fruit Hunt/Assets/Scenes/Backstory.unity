@@ -1203,8 +1203,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 107.163025, y: -34.752}
-  m_SizeDelta: {x: 994.3361, y: 164.32}
+  m_AnchoredPosition: {x: 116.92, y: -34.752}
+  m_SizeDelta: {x: 1013.8, y: 164.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &369481311
 MonoBehaviour:
@@ -1242,7 +1242,7 @@ MonoBehaviour:
   m_Text: Agent Mushy, I have an important case for you. But first, I would like
     to know if you are willing to take it on. If so, you must understand that the
     fate of our town will be in your hands. Of course, I'll give you a moment to
-    think about it...
+    think about it... *You decide to*
 --- !u!222 &369481312
 CanvasRenderer:
   m_ObjectHideFlags: 0

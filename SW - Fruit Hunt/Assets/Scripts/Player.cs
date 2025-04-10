@@ -18,6 +18,11 @@ namespace Cainos.PixelArtTopDown_Basic
         public HealthBar healthBar;
         public int heheSyndrome;
 
+        public Transform pineApple;
+        public Vector2 oneDirection;
+
+            //bweetres
+
         void Start()
         {
             animator = GetComponent<Animator>();
@@ -53,6 +58,17 @@ namespace Cainos.PixelArtTopDown_Basic
             }
 
             dir.Normalize();
+
+            if(dir != Vector2.zero)
+            {
+                oneDirection = dir;
+            }
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                pineApple.position += new Vector3 (oneDirection.x, oneDirection.y);
+            }
+
             animator.SetBool("IsMoving", dir.magnitude > 0);
 
             GetComponent<Rigidbody2D>().velocity = speed * dir;

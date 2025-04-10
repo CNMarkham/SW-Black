@@ -35806,6 +35806,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1299896508}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1317521315 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8100956935609269690, guid: 4d0806bfbab85aa4bb6b62fd57e602fb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1480699745406430506}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1320192794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49518,6 +49524,11 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1134640055}
+    - target: {fileID: 8414914976495120014, guid: 4d0806bfbab85aa4bb6b62fd57e602fb,
+        type: 3}
+      propertyPath: pineApple
+      value: 
+      objectReference: {fileID: 1317521315}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
