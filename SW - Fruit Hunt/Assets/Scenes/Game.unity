@@ -16702,6 +16702,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1467707186}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &523166671 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7052970683538553479, guid: 4d0806bfbab85aa4bb6b62fd57e602fb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1480699745406430506}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &530854816
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27286,6 +27292,7 @@ GameObject:
   - component: {fileID: 1137492652}
   - component: {fileID: 1137492653}
   - component: {fileID: 1137492654}
+  - component: {fileID: 1137492655}
   m_Layer: 20
   m_Name: Rob
   m_TagString: Rob
@@ -27604,7 +27611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8b27e21fbc0876458db7c540db567ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2.5
+  speed: 2
   RobMoveDirection: {x: 0, y: 0, z: 0}
   Rob: {fileID: 1137492647}
   PlayE: {fileID: 1191224112}
@@ -27635,6 +27642,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1137492655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137492647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c629828c252226e468408c1454312e35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyHealth: 100
 --- !u!1001 &1144802543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35812,6 +35832,41 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1480699745406430506}
   m_PrefabAsset: {fileID: 0}
+--- !u!70 &1317521317
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523166671}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.025751373, y: 0.00000048767436}
+  m_Size: {x: 0.6394984, y: 1}
+  m_Direction: 0
 --- !u!1001 &1320192794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41276,10 +41331,10 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: December 23, 1657. I just found this journal in my father, Fredrick's,
-    room. His death was nearly one and a half decades ago, and I was searching through
-    his room for any left over belongings to find out about his brutal death. I found
-    this journal. Reading through these pages, I have a good idea who betrayed him.
-    Could it possibly be my own blood-related uncle, Richard?
+    room. His death was nearly one decade ago, and I was searching through his room
+    for any left over belongings to find out about his brutal death. I found this
+    journal. Reading through these pages, I have a good idea who betrayed him. Could
+    it possibly be my own blood-related uncle, Richard?
 --- !u!222 &1620016072
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -47902,7 +47957,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CNMBox: {fileID: 0}
   HelgaBox: {fileID: 0}
-  BobKidBox: {fileID: 0}
+  BobKidBox: {fileID: 467579800}
   BookBox: {fileID: 0}
   Book: {fileID: 0}
 --- !u!1 &2068551087
@@ -49519,6 +49574,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7052970683538553479, guid: 4d0806bfbab85aa4bb6b62fd57e602fb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Pineapple
+      objectReference: {fileID: 0}
     - target: {fileID: 8414914976495120014, guid: 4d0806bfbab85aa4bb6b62fd57e602fb,
         type: 3}
       propertyPath: healthBar
@@ -49537,6 +49597,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1622224638}
+    - targetCorrespondingSourceObject: {fileID: 7052970683538553479, guid: 4d0806bfbab85aa4bb6b62fd57e602fb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1317521317}
   m_SourcePrefab: {fileID: 100100000, guid: 4d0806bfbab85aa4bb6b62fd57e602fb, type: 3}
 --- !u!1001 &1596426220725145047
 PrefabInstance:
