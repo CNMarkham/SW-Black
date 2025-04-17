@@ -21,6 +21,8 @@ namespace Cainos.PixelArtTopDown_Basic
         public Transform pineApple;
         public Vector2 oneDirection;
 
+        public bool isAttacking;
+
             //bweetres
 
         void Start()
@@ -78,12 +80,12 @@ namespace Cainos.PixelArtTopDown_Basic
             }
 
             //if the space bar key is pressed...
-            if (Input.GetKeyDown(KeyCode.Space))
+            if(Input.GetKeyDown(KeyCode.Space))
             {
-                //the position of pineApple/the pineapple on AM's head adds a new Vector3, the x and y position of oneDirection.
-                pineApple.position += new Vector3 (oneDirection.x, oneDirection.y);
-                Invoke("Pineapple", 5.0f);
-                pineApple.transform.position = -0.016, 1.21, 0;
+                if (isAttacking == false)
+                {
+                    StartCoroutine(Attakc());
+                }
             }
 
             //the animator sets a bool "isMoving" to check if it's moving, then makes the dir.magnitude greater than zero.
@@ -96,6 +98,34 @@ namespace Cainos.PixelArtTopDown_Basic
             //{
                 //TakeDamage(10);
             //}
+        }
+
+        //coroutinE!
+        IEnumerator Attakc()
+        {
+            isAttacking = true;
+            //defining starting and final position used for lerping later.
+            Vector3 startingPosition = pineApple.localPosition;
+            Vector3 finalPosition = pineApple.localPosition + new Vector3(oneDirection.x, oneDirection.y);
+            //move from beginning to end
+            for(float t = 0; t < 1; t += Time.deltaTime * 2.8f)
+            {
+                pineApple.localPosition = Vector3.Lerp(startingPosition, finalPosition, t);
+                yield return null;
+            }
+            //moves back.
+            for(float t = 1; t > 0; t -= Time.deltaTime * 2.8f)
+            {
+                pineApple.localPosition = Vector3.Lerp(startingPosition, finalPosition, t);
+                yield return null;
+            }
+            isAttacking = false;
+        }
+
+        void Pineapple()
+        {
+            pineApple.transform.localPosition = new Vector3(-0.016f, 1.21f, 0);
+
         }
 
         public void OnCollisionEnter2D(Collision2D collision)
