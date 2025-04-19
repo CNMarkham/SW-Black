@@ -104,6 +104,7 @@ namespace Cainos.PixelArtTopDown_Basic
         IEnumerator Attakc()
         {
             isAttacking = true;
+            pineApple.GetComponent<CapsuleCollider2D>().enabled = true;
             //defining starting and final position used for lerping later.
             Vector3 startingPosition = pineApple.localPosition;
             Vector3 finalPosition = pineApple.localPosition + new Vector3(oneDirection.x, oneDirection.y);
@@ -120,6 +121,7 @@ namespace Cainos.PixelArtTopDown_Basic
                 yield return null;
             }
             isAttacking = false;
+            pineApple.GetComponent<CapsuleCollider2D>().enabled = false;
         }
 
         void Pineapple()

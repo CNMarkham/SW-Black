@@ -8,12 +8,32 @@ public class itemCollect : MonoBehaviour
     void Start()
     {
         //...A function is a set of instructions in a block of code.
-        //There are two types: one that gives back/returns, and one that doesn't.
-        //Some of them have parenthesis/brackets/()
+        //There are two types: one that gives back / returns, and one that doesn't.
+        //Most of them have parenthesis / brackets / ()
+
         //strings are sentences,
         //floats are decimal numbers,
         //int(eger)s are non - decimal numbers,
         //bools are true / false.
+
+        //* / asterix means "times" or "multiply"
+
+        //Two equal signs / == means you are checking something (like a tag...),
+        //whilst one equal sign / = means you are setting something to some value. :)
+
+        //A coroutine is basically a function that lets you wait.
+
+        //so, for loops are usually written like this...
+        //for ( [variable type, name], [name] = [value], [name, expression])
+        //{
+        //[rest of code.]
+        //}
+
+        //here's one for if statements...
+        //if ([code])
+        //{
+            //[rest of code]
+        //}
     }
 
     public void OnTriggerEnter2D(Collider2D collision)

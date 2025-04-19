@@ -18,6 +18,7 @@ public class EnemyHealth : MonoBehaviour
         //if the gameObject Rob's colliding with's tag is "Pineapple"
         if(collision.gameObject.tag == "Pineapple")
         {
+
             //Minus 10 from enemyHealth.
             enemyHealth -= 10;
             //if enemyHealth is below or equal to zero...
