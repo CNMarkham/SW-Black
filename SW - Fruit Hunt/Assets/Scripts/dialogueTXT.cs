@@ -86,6 +86,7 @@ public class DialogueTXT : MonoBehaviour
         {
             //making the pages disappear
             BookBox.SetActive(false);
+            //make the Book gameObject reappear
             Book.SetActive(true);
         }
     }

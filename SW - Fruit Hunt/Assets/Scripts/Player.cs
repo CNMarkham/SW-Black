@@ -27,15 +27,20 @@ namespace Cainos.PixelArtTopDown_Basic
 
         void Start()
         {
+            //animator is equal to the component Animator
             animator = GetComponent<Animator>();
+            //the currentHealth at the beginning of the game is the maxHealth/100
             currentHealth = maxHealth;
+            //We set the value of the healthBar to project maxHealth/100
             healthBar.SetMaxHealth(maxHealth);
+            //heheSyndrome/Player's health is 100
             heheSyndrome = 100;
         }
 
 
         void Update()
         {
+            //Vector2's direction is set to 0
             Vector2 dir = Vector2.zero;
 
             //if the key A or left arrow is pressed...
@@ -82,9 +87,11 @@ namespace Cainos.PixelArtTopDown_Basic
             //if the space bar key is pressed...
             if(Input.GetKeyDown(KeyCode.Space))
             {
+                //and if isAttacking is false...
                 if (isAttacking == false)
                 {
-                    StartCoroutine(Attakc());
+                    //we start the corouting Attack
+                    StartCoroutine(Attack());
                 }
             }
 
@@ -101,33 +108,40 @@ namespace Cainos.PixelArtTopDown_Basic
         }
 
         //coroutinE!
-        IEnumerator Attakc()
+        IEnumerator Attack()
         {
+            //we set isAttacking to true in the beginning of this coroutine
             isAttacking = true;
+            //
             pineApple.GetComponent<CapsuleCollider2D>().enabled = true;
-            //defining starting and final position used for lerping later.
+            //defining starting position used for lerping later.
             Vector3 startingPosition = pineApple.localPosition;
+            //defining that the finalPosition is pineApple's localPosition and the new Vector3 of the past directions.
             Vector3 finalPosition = pineApple.localPosition + new Vector3(oneDirection.x, oneDirection.y);
             //move from beginning to end
             for(float t = 0; t < 1; t += Time.deltaTime * 2.8f)
             {
+                //the localPosition is set to lerp from the startingPosition to finalPosition.
                 pineApple.localPosition = Vector3.Lerp(startingPosition, finalPosition, t);
                 yield return null;
             }
             //moves back.
             for(float t = 1; t > 0; t -= Time.deltaTime * 2.8f)
             {
+                //the localPosition is set to lerp from the startingPosition to finalPosition.
                 pineApple.localPosition = Vector3.Lerp(startingPosition, finalPosition, t);
                 yield return null;
             }
+            //we set isAttacking to false at the end of the code
             isAttacking = false;
+            //we get the component on pineApple of CapsuleCollider2D and disable it
             pineApple.GetComponent<CapsuleCollider2D>().enabled = false;
         }
 
         void Pineapple()
         {
+            //the localPosition of pineApple is equal to the new Vector3 position
             pineApple.transform.localPosition = new Vector3(-0.016f, 1.21f, 0);
-
         }
 
         public void OnCollisionEnter2D(Collision2D collision)
