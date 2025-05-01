@@ -117,7 +117,7 @@ namespace Cainos.PixelArtTopDown_Basic
             //defining starting position used for lerping later.
             Vector3 startingPosition = pineApple.localPosition;
             //defining that the finalPosition is pineApple's localPosition and the new Vector3 of the past directions.
-            Vector3 finalPosition = pineApple.localPosition + new Vector3(oneDirection.x, oneDirection.y);
+            Vector3 finalPosition = pineApple.localPosition + new Vector3(oneDirection.x, oneDirection.y) * 2;
             //move from beginning to end
             for(float t = 0; t < 1; t += Time.deltaTime * 2.8f)
             {

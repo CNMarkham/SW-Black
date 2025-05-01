@@ -11,7 +11,7 @@ public class codeTXT : MonoBehaviour
 
     public GameObject code;
 
-    public void CH()
+    public void codeButton()
     {
         //make the gameObject "TextCode"'s text equal to what codeTXT is set to.
         TextCode.text = codeTxt;

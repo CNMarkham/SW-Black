@@ -44,9 +44,9 @@ public class itemCollect : MonoBehaviour
             //gameObject SetActive false (which means it's not visible) and make the scroll text appear with the code
             collision.gameObject.SetActive(false);
             //calling the BST void from the ScrollTXT script
-            collision.gameObject.GetComponent<ScrollTXT>().BST();
+            collision.gameObject.GetComponent<ScrollTXT>().scrollText();
             //calling the CH void from the codeTXT script
-            collision.gameObject.GetComponent<codeTXT>().CH();
+            collision.gameObject.GetComponent<codeTXT>().codeButton();
         }
     }
 }
