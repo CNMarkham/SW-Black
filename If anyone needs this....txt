@@ -2,22 +2,30 @@ If anyone needs this...
 
 ...Here's a few tips and tricks to help you with Unity.
 
-Made from a ninja who also learnt this along their way
-
-Now, this ninja doesn't want to take too much credit for this... but this ninjas did fully make this on their own, so technically this ninja did.
-
-A function is a set of instructions in a block of code. There are two types: one that gives back/returns, and one that doesn't. Some of them have parenthesis/brackets/()
+A function is a set of instructions in a block of code. There are two types: one that gives back/returns, and one that doesn't. Most of them have parenthesis/brackets/()
 
 strings are sentences,
 floats are decimal numbers,
 int(eger)s are non-decimal numbers,
 bools are true/false.
 
-*/astrix means "times" or "multiply"
+*/asterisk means "times" or "multiply"
 
 Two equal signs (==) means you are checking something, whilst one equal sign (=) means you are setting something to some value. :)
 
 A coroutine is basically a function that lets you wait.
+
+so, for loops are usually written like this...
+for ( [variable type, name], [name] = [value], [name, expression])
+{
+	[rest of code.]
+}
+
+And if you're that clueless, here's one for if statements...
+if ([code])
+{
+	[rest of code]
+}
 
 If you've made it here you're probably dumb...
 
@@ -976,8 +984,8 @@ If you've made it here you're probably dumb...
 
 
 
+Just kidding. Or am I?
 
-Made by your favourite ninjas that uses this computer :)
 
 
 
@@ -1342,6 +1350,7 @@ Made by your favourite ninjas that uses this computer :)
 
 
 
+I think you need help.
 
 
 
@@ -1720,4 +1729,170 @@ Made by your favourite ninjas that uses this computer :)
 
 
 
-Oh, and stay strong! Love you!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get back to work.

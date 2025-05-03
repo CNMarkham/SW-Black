@@ -31,6 +31,10 @@ public class EnemyHealth : MonoBehaviour
             {
                 //make Rob disappear.
                 gameObject.SetActive(false);
+                //make closedChest gameObject disappear
+                //make openChest gameObject appear
+                //make Watermelon gameObject appear
+                //make the Watermelon's scroll appear
             }
         }
     }

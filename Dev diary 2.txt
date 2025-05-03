@@ -1,0 +1,3 @@
+Dev diary 2
+
+Hello again. It's me, Summer Wong. I implemented moving code, attacking code, dialogue code and also collecting items code. There are a bunch more like the health script, loading scene scripts and more. I modified and added even more to my code rather than initially planned in my planning phase. I faced a lot of challenges such as not knowing what to do, but I just asked for help and overcame them. I think that there will be much more similar challenges like making my own map in the future when finishing up making the full game.
