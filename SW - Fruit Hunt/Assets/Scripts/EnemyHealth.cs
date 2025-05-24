@@ -6,6 +6,10 @@ public class EnemyHealth : MonoBehaviour
 {
     public int enemyHealth;
     public Vector3 direction;
+    public GameObject closedChest;
+    public GameObject openChest;
+    public GameObject watermelon;
+    public GameObject watermelonScroll;
 
     // Start is called before the first frame update
     void Start()
@@ -32,9 +36,13 @@ public class EnemyHealth : MonoBehaviour
                 //make Rob disappear.
                 gameObject.SetActive(false);
                 //make closedChest gameObject disappear
+                closedChest.SetActive(false);
                 //make openChest gameObject appear
+                openChest.SetActive(true);
                 //make Watermelon gameObject appear
+                watermelon.SetActive(true);
                 //make the Watermelon's scroll appear
+                watermelonScroll.SetActive(true);
             }
         }
     }
