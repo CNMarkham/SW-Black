@@ -8,6 +8,8 @@ public class TimersCountdown : MonoBehaviour
 {
     public Text lapTime;
 
+    public GameObject Rob;
+
     public float totalLapTime;
     public float totalCountdownTime;
 
@@ -29,6 +31,11 @@ public class TimersCountdown : MonoBehaviour
             Debug.Log("lololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololoHaHaYouSucklololololololololololololololololololololololol.");
             //load scene 0/menu so the player has to restart the game haha... hahaha...?
             SceneManager.LoadScene(0);
+        }
+
+        if (Rob.activeInHierarchy)
+        {
+            Destroy(lapTime);
         }
     }
 }
