@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1255,7 +1254,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 31
+    m_FontSize: 29
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1266,24 +1265,27 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Update 8.3 - A new log is created.
+  m_Text: 'Update 9.2 - Chest works.
 
-    Update 7.1 - Shooting speed enhanced.
-
-    Update
-    5.0 - Shooting length enhanced
-
-    Update 4.7 - Airtag and book added.
+    Update 8.3 - A new log is created.
 
     Update
-    3.6 - ??? ??? ?????
+    7.1 - Shooting speed enhanced.
 
-    Update 2.9 - Arrow keys work
+    Update 5.0 - Shooting length enhanced
 
-    Update 1.2 - More
-    lore dropped
+    Update
+    4.7 - Airtag and book added.
 
-    Update 0.8 - New fruits added.'
+    Update 3.6 - ??? ??? ?????
+
+    Update 2.9
+    - Arrow keys work
+
+    Update 1.2 - More lore dropped
+
+    Update 0.8 - New fruits
+    added.'
 --- !u!222 &826663234
 CanvasRenderer:
   m_ObjectHideFlags: 0
