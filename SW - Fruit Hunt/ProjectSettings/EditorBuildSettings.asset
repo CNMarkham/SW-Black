@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 866832c065a474f45a4abf356f8c335e
   - enabled: 1
-    path: Assets/Scenes/Game.unity
-    guid: 86e89bd9e4a9c5245a015cf17e3c0aae
+    path: Assets/Scenes/RealGame.unity
+    guid: 379b66ed48a88ed44b43f71e2cecc18f
   - enabled: 1
     path: Assets/Scenes/Controls.unity
     guid: 550e8dadf89f3ae4495709cafdd85dd8
@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Updates.unity
     guid: 9ba6921e68e6135488fcc0ade3eedc4c
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 86e89bd9e4a9c5245a015cf17e3c0aae
   m_configObjects: {}

@@ -12,7 +12,7 @@ public class ScrollTXT : MonoBehaviour
     public GameObject uGot;
     public GameObject codes;
 
-    //Once void BST is called...
+    //Once void scrollText is called...
     public void scrollText()
     {
         //The gameObject uGot SetActive true
