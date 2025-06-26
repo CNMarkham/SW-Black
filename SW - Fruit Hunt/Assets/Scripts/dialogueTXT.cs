@@ -5,11 +5,15 @@ using UnityEngine;
 public class DialogueTXT : MonoBehaviour
 {
     public GameObject CNMBox;
+
     public GameObject HelgaBox;
+
     public GameObject BobKidBox;
+
 
     public GameObject BookBox;
     public GameObject Book;
+
     // Start is called before the first frame update
     void Start()
     {
