@@ -33,6 +33,7 @@ public class EnemyHealth : MonoBehaviour
             //if enemyHealth is below or equal to zero...
             if(enemyHealth <= 0)
             {
+                FindAnyObjectByType<TimersCountdown>().robDIED = true;
                 //make Rob disappear.
                 gameObject.SetActive(false);
                 //make closedChest gameObject disappear

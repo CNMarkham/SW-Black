@@ -7,9 +7,12 @@ using UnityEngine.SceneManagement;
 public class TimersCountdown : MonoBehaviour
 {
     public Text lapTime;
-
+    public GameObject robParent;
     public GameObject Rob;
-
+    public bool helgaTalked;
+    public bool cnmTalked;
+    public bool kidTalked;
+    public bool robDIED;
     public float totalLapTime;
     public float totalCountdownTime;
 
@@ -36,6 +39,15 @@ public class TimersCountdown : MonoBehaviour
         if (Rob.activeInHierarchy)
         {
             Destroy(lapTime);
+        }
+
+    }
+
+    public void SpawnRob()
+    {
+        if(helgaTalked && kidTalked && cnmTalked)
+        {
+            robParent.SetActive(true);
         }
     }
 }

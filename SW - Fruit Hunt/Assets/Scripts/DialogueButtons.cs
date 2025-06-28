@@ -7,6 +7,9 @@ public class DialogueButtons : MonoBehaviour
     public GameObject[] dialogues;
     public GameObject dialogueParent;
     public int trackDialogue;
+    public bool cnm;
+    public bool helga;
+    public bool kid;
 
     public void AdvanceDialogue()
     {
@@ -26,10 +29,29 @@ public class DialogueButtons : MonoBehaviour
 
     public void CloseDialogue()
     {
+        UpdateRob();
         dialogues[trackDialogue].SetActive(false);
         trackDialogue = 0;
         dialogues[trackDialogue].SetActive(true);
         dialogueParent.SetActive(false);
 
+    }
+
+    public void UpdateRob()
+    {
+        TimersCountdown spawner = FindAnyObjectByType<TimersCountdown>();
+        if(helga)
+        {
+            spawner.helgaTalked = true;
+        }
+        else if (kid)
+        {
+            spawner.kidTalked = true;
+        }
+        else if (cnm)
+        {
+            spawner.cnmTalked = true;
+        }
+        spawner.SpawnRob();
     }
 }
