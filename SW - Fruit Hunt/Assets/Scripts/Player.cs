@@ -149,18 +149,17 @@ namespace Cainos.PixelArtTopDown_Basic
             //if the player is colliding with the gameObject with the tag "Rob"...
             if (collision.gameObject.tag == "Rob")
             {
-                //heheSyndrome minuses health quite often, and infact, you see it commonly. No sould deserves this tragic fate and will never get a chance to developes from their mistakes. You may never find your way out of this never ending black hole, but one thing is for sure. You're done for, no matter how much you deny it. Plus the fact you're always being seeked for, hunted, in your case. Try finding your way out; it's nearly impossible to survive. This community used to be very loving and kind, but not anymore. Terror has rised and taken over. Your life is in danger, I hope you know. You can never run. Never hide. Never escape your mistakes. They're after you, and you'll be executed in cold blood; they don't care! I give you the advice to try to persuade them to let you live;
                 //we take 10 damage from the player.
                 TakeDamage(10);
                 //we broadcast this message to the console.
-                Debug.Log("You just lost health for your dumb mistake, I'm certain of it. I see the look on your face while reading this, it's pure and full of idiocity. Let's see if you can figure out why your face looks that... obviously dumbfounded. You belong in a zoo looking like that, those eyebrows are unruly. You're damaging my eyes and you deserve to pay for my fixes! I can't stay like this forever, all because your stupid face! I'm not stopping, you cow. Why don't you produce some milk and send it to NoFrills huh? Your nose is shaped like a rock. Your earwax is yellow, and bulging out. Get it removed, bud! Ew, I can't even. Blegh. You have no common sense, I think you need to go back to primary school. You also need therapy, surgery, and some medication. You look insane, and that's one thing I'm sure of. It's plastered across your face! Try something, you're blinding my soul and dignity. I recommend getting away. I can't tell if you're sober or not... but I'm certain you're not. It's quite evident, visible too, on your perplexed face. Don't look so surprised I know, you know it yourself! Your face is green, are you okay? Just kidding, I would never care about you; especially when you look like that... I'm think I'm going to be sick.");
+                Debug.Log("You just lost health.");
 
                 //if the variable "heheSyndrome" is less than or equal to zero...
                 if (heheSyndrome <= 0)
                 {
                     //broadcast this message to the console
-                    Debug.Log("You died since you have no common sense, I think you need to go back to primary school. You also need therapy, surgery, and some medication. You look insane, and that's one thing I'm sure of. It's plastered across your face! Try something, you're blinding my soul and dignity. I recommend getting away, since I can tell you're trying to release a fart bomb. It's quite evident, visible too, on your perplexed face. Don't look so surprised I know, you know it yourself! Your face is green, are you okay? Just kidding, I would never care about you; especially when you look like that... I'm think I'm going to be sick.");
-                    //load scene 0 or the menu scene.
+                    Debug.Log("You just died.");
+                    //load scene 0/the menu scene.
                     SceneManager.LoadScene(0);
                 }
             }
@@ -170,7 +169,7 @@ namespace Cainos.PixelArtTopDown_Basic
         {
             //the current health minuses the amount of health taking damage took
             currentHealth -= damage;
-            //updates it.
+            //updates it by settubg the healthBar value to currentHealth.
             healthBar.SetHealth(currentHealth);
         }
 
