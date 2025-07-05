@@ -150,8 +150,8 @@ RectTransform:
   m_GameObject: {fileID: 86660532}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 534213500}
   - {fileID: 826663232}
@@ -160,8 +160,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000025213, y: 9.6822}
-  m_SizeDelta: {x: 789.2992, y: 500.9456}
+  m_AnchoredPosition: {x: 0, y: -52.461304}
+  m_SizeDelta: {x: 789.2992, y: 570.894}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &86660534
 MonoBehaviour:
@@ -808,15 +808,15 @@ RectTransform:
   m_GameObject: {fileID: 534213499}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1, y: 0.8, z: 1.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 86660533}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 179}
-  m_SizeDelta: {x: 695.3347, y: 158.0444}
+  m_AnchoredPosition: {x: 0, y: 223.79654}
+  m_SizeDelta: {x: 695.3347, y: 113.7914}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &534213501
 MonoBehaviour:
@@ -1230,8 +1230,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000076294, y: -84}
-  m_SizeDelta: {x: 591.3, y: 296.34}
+  m_AnchoredPosition: {x: 0.0000076294, y: -66}
+  m_SizeDelta: {x: 591.3, y: 418.4778}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &826663233
 MonoBehaviour:
@@ -1266,27 +1266,32 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Update 10.6 - Map was reworked
+  m_Text: 'Update 12.5 - Created ability to win and lose
 
-    Update 9.2 - Chest works.
+    Update 11.8 - Defusal
+    system is created.
 
-    Update
-    8.3 - A new log is created.
+    Update 10.6 - Map was reworked
 
-    Update 7.1 - Shooting speed enhanced.
+    Update 9.2 - Chest
+    works.
 
-    Update
-    5.0 - Shooting length enhanced
+    Update 8.3 - A new log is created.
 
-    Update 4.7 - Airtag and book added.
+    Update 7.1 - Shooting speed
+    enhanced.
 
-    Update
-    3.6 - ??? ??? ?????
+    Update 5.0 - Shooting length enhanced
 
-    Update 2.9 - Arrow keys work
+    Update 4.7 - Airtag
+    and book added.
 
-    Update 1.2 - More
-    lore dropped
+    Update 3.6 - ??? ??? ?????
+
+    Update 2.9 - Arrow keys
+    work
+
+    Update 1.2 - More lore dropped
 
     Update 0.8 - New fruits added.'
 --- !u!222 &826663234
@@ -1828,15 +1833,15 @@ RectTransform:
   m_GameObject: {fileID: 1487663404}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1, y: 0.8, z: 1.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 86660533}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000076292, y: 98}
-  m_SizeDelta: {x: 591.3, y: 49.2935}
+  m_AnchoredPosition: {x: 0.0000076292, y: 159.85506}
+  m_SizeDelta: {x: 591.3, y: 56.4311}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1487663406
 MonoBehaviour:
@@ -1871,7 +1876,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Last update: 06/05/2025'
+  m_Text: 'Last update: 06/28/2025'
 --- !u!222 &1487663407
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1909,15 +1914,15 @@ RectTransform:
   m_GameObject: {fileID: 1534594675}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1868367627}
   m_Father: {fileID: 2046405899}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -594.8299, y: 278.73248}
+  m_AnchoredPosition: {x: -807, y: 465}
   m_SizeDelta: {x: 113.4687, y: 37.1588}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1534594677
@@ -3122,10 +3127,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3

@@ -28,10 +28,10 @@ public class TimersCountdown : MonoBehaviour
         totalLapTime -= Time.deltaTime;
 
         //if the total lap time is below or equal to 0...
-        if (totalLapTime < 0)
+        if (totalLapTime <= 0)
         {
             //send this lovely message to the console.
-            Debug.Log("lololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololoHaHaYouSucklololololololololololololololololololololololol.");
+            Debug.Log("Uh oh! Time is up. Looks like you need to restart.");
             //load scene 0/menu so the player has to restart the game haha... hahaha...?
             SceneManager.LoadScene(0);
         }
