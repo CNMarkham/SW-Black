@@ -32,8 +32,8 @@ public class TimersCountdown : MonoBehaviour
         {
             //send this lovely message to the console.
             Debug.Log("Uh oh! Time is up. Looks like you need to restart.");
-            //load scene 0/menu so the player has to restart the game haha... hahaha...?
-            SceneManager.LoadScene(0);
+            //load scene 7/lose scene because u failed.
+            SceneManager.LoadScene(7);
         }
 
         if (Rob.activeInHierarchy)
