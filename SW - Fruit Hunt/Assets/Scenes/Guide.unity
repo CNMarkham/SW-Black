@@ -2093,19 +2093,19 @@ MonoBehaviour:
     1. Use keys WASD or arrows to move your player.
 
     2. Talk to
-    the first 3 tomatoes you see only first
+    the first 3 tomatoes you see ONLY.
 
-    3. Collect fruits and codes that
-    you can find by colliding with them/walking into (or "on") them
+    3. Collect fruits and codes that you
+    can find by colliding with them/walking into (or "on") them
 
-    4. Press
-    the "codes" button to see your current collected codes. It''ll be useful for
-    the boss fight
+    4. Press the
+    "codes" button to see your current collected codes. It''ll be useful for after
+    the fight.
 
-    5. Don''t waste time. After 500 secs you''ll restart
+    5. Don''t waste time. After 500 secs you''ll lose
 
-    6.
-    Press the space bar to hit Rob during the fight.'
+    6. Press
+    the space bar to hit Rob during the fight.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -1230,8 +1230,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000076294, y: -66}
-  m_SizeDelta: {x: 591.3, y: 418.4778}
+  m_AnchoredPosition: {x: 0.0000076294, y: -61.025566}
+  m_SizeDelta: {x: 591.3, y: 428.4267}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &826663233
 MonoBehaviour:
@@ -1266,32 +1266,35 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Update 12.5 - Created ability to win and lose
+  m_Text: 'Update 13.9 - Keypad works with right code.
 
-    Update 11.8 - Defusal
-    system is created.
+    Update 12.5 - Created
+    ability to win and lose
 
-    Update 10.6 - Map was reworked
+    Update 11.8 - Defusal system is created.
 
-    Update 9.2 - Chest
-    works.
+    Update
+    10.6 - Map was reworked
 
-    Update 8.3 - A new log is created.
+    Update 9.2 - Chest works.
 
-    Update 7.1 - Shooting speed
-    enhanced.
+    Update 8.3 - A new
+    log is created.
 
-    Update 5.0 - Shooting length enhanced
+    Update 7.1 - Shooting speed enhanced.
 
-    Update 4.7 - Airtag
-    and book added.
+    Update 5.0 -
+    Shooting length enhanced
 
-    Update 3.6 - ??? ??? ?????
+    Update 4.7 - Airtag and book added.
 
-    Update 2.9 - Arrow keys
-    work
+    Update
+    3.6 - ??? ??? ?????
 
-    Update 1.2 - More lore dropped
+    Update 2.9 - Arrow keys work
+
+    Update 1.2 - More
+    lore dropped
 
     Update 0.8 - New fruits added.'
 --- !u!222 &826663234
@@ -1840,7 +1843,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000076292, y: 159.85506}
+  m_AnchoredPosition: {x: 0.0000076292, y: 168}
   m_SizeDelta: {x: 591.3, y: 56.4311}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1487663406
@@ -1876,7 +1879,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Last update: 06/28/2025'
+  m_Text: 'Last update: 07/12/2025'
 --- !u!222 &1487663407
 CanvasRenderer:
   m_ObjectHideFlags: 0

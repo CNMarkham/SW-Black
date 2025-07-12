@@ -3,19 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
+using System.Linq;
 
 public class BombEntry : MonoBehaviour
 {
     public GameObject BombDefusal;
     public TextMeshProUGUI displayedTxt;
-    public int[] code = { 0, 5, 2, 3 };
+    public int[] code = { 0, 0, 0, 0 };
+    public int[] correctCode = { 1, 2, 0, 7 };
     public int counter;
     // Start is called before the first frame update
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //if we're colliding with the gameObject with the tag "Bomb" and find the gameObject TimersCountdown, Rob dies.
-        if(collision.gameObject.tag == "Bomb" && FindAnyObjectByType<TimersCountdown>().robDIED)
+        if(collision.gameObject.CompareTag("Bomb") && FindAnyObjectByType<TimersCountdown>().robDIED)
         {
+            Debug.Log("Open Bomb");
             //BombDefusal will appear
             BombDefusal.SetActive(true);
 
@@ -50,10 +54,30 @@ public class BombEntry : MonoBehaviour
             return;
         counter++;
     }
+
+    public void SubmitButton()
+    {
+        bool isCorrect = code.SequenceEqual(correctCode);
+
+        if (isCorrect) 
+        {
+            Debug.Log("Yay! You got it.");
+            Invoke("LoadSceneDelay", 3f);
+        }
+        else
+        {
+            Debug.Log("Wrong code.");
+        }
+    }
+
+    private void LoadSceneDelay()
+    {
+        SceneManager.LoadScene(6);
+    }
     private void OnTriggerExit2D(Collider2D collision)
     {
         //if we're colliding with the gameObject with the tag "Bomb" and find the gameObject TimersCountdown, Rob dies.
-        if (collision.gameObject.tag == "Bomb" && FindAnyObjectByType<TimersCountdown>().robDIED)
+        if (collision.gameObject.CompareTag("Bomb") && FindAnyObjectByType<TimersCountdown>().robDIED)
         {
             //BombDefusal will disappear
             BombDefusal.SetActive(false);

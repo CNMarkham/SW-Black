@@ -902,7 +902,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 524.3994, y: 76.26752}
+  m_AnchoredPosition: {x: 537.22, y: 76.268005}
   m_SizeDelta: {x: 173.2012, y: 53.469}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &170781672
@@ -1203,8 +1203,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 116.92, y: -34.752}
-  m_SizeDelta: {x: 1013.8, y: 164.32}
+  m_AnchoredPosition: {x: 126.95, y: -32.605}
+  m_SizeDelta: {x: 1069.7, y: 161.71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &369481311
 MonoBehaviour:
@@ -1242,7 +1242,7 @@ MonoBehaviour:
   m_Text: Agent Mushy, I have an important case for you. But first, I would like
     to know if you are willing to take it on. If so, you must understand that the
     fate of our town will be in your hands. Of course, I'll give you a moment to
-    think about it... *You decide to*
+    think about it... it is a tough case after all. Take a bit.
 --- !u!222 &369481312
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1330,8 +1330,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 107.163025, y: -31.3031}
-  m_SizeDelta: {x: 994.3361, y: 159.11}
+  m_AnchoredPosition: {x: 126.94, y: -31.3031}
+  m_SizeDelta: {x: 1069.7, y: 159.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &472642056
 GameObject:
@@ -1453,7 +1453,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 524.3994, y: 76.26752}
+  m_AnchoredPosition: {x: 537.22, y: 76.268}
   m_SizeDelta: {x: 173.2012, y: 53.469}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &473342387
@@ -1920,7 +1920,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 524.3994, y: 76.26752}
+  m_AnchoredPosition: {x: 537.22, y: 76.268}
   m_SizeDelta: {x: 173.2012, y: 53.469}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &613106338
@@ -2219,8 +2219,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -530.1846, y: 11.1077}
-  m_SizeDelta: {x: 353.343, y: 346.3489}
+  m_AnchoredPosition: {x: -561, y: 0.000005722}
+  m_SizeDelta: {x: 397.7572, y: 362.338}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &816318988
 MonoBehaviour:
@@ -3392,7 +3392,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -195.01, y: 72.6006}
+  m_AnchoredPosition: {x: -212.9, y: 72.601}
   m_SizeDelta: {x: 390.01, y: 60.803}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1375994959
@@ -3639,8 +3639,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 107.163025, y: -31.3031}
-  m_SizeDelta: {x: 994.3361, y: 159.11}
+  m_AnchoredPosition: {x: 126.95, y: -31.3031}
+  m_SizeDelta: {x: 1069.7, y: 159.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1540342727
 MonoBehaviour:
@@ -4109,7 +4109,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 524.3994, y: 76.26752}
+  m_AnchoredPosition: {x: 537.22, y: 76.268}
   m_SizeDelta: {x: 173.2012, y: 53.469}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1899874605
@@ -4627,8 +4627,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 107.163025, y: -31.3031}
-  m_SizeDelta: {x: 994.3361, y: 159.11}
+  m_AnchoredPosition: {x: 126.95, y: -31.3031}
+  m_SizeDelta: {x: 1069.7, y: 159.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1978406975
 MonoBehaviour:
