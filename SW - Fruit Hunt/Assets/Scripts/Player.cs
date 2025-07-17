@@ -150,7 +150,7 @@ namespace Cainos.PixelArtTopDown_Basic
             if (collision.gameObject.tag == "Rob")
             {
                 //we take 10 damage from the player.
-                TakeDamage(10);
+                //TakeDamage(10);
                 //we broadcast this message to the console.
                 Debug.Log("You just lost health.");
 
@@ -167,6 +167,7 @@ namespace Cainos.PixelArtTopDown_Basic
 
         void TakeDamage(int damage)
         {
+            Debug.Log("damage");
             //the current health minuses the amount of health taking damage took
             currentHealth -= damage;
             //updates it by settubg the healthBar value to currentHealth.

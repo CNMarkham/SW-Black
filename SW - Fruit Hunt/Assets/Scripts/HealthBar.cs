@@ -11,8 +11,13 @@ public class HealthBar : MonoBehaviour
 
     public Image fill;
 
+    public void Start()
+    {
+        
+    }
     public void SetMaxHealth(int health)
     {
+        Debug.Log("setting max health");
         //slider's max value is the health because it can't get any higher than that
         slider.maxValue = health;
         //value of the slider is the health.
@@ -24,6 +29,7 @@ public class HealthBar : MonoBehaviour
 
     public void SetHealth(int health)
     {
+        Debug.Log("setting health");
         //again, the slider's value is the health.
         slider.value = health;
 

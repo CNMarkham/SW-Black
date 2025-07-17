@@ -62,7 +62,7 @@ public class BombEntry : MonoBehaviour
         if (isCorrect) 
         {
             Debug.Log("Yay! You got it.");
-            Invoke("LoadSceneDelay", 3f);
+            Invoke("LoadSceneDelay", 1f);
         }
         else
         {

@@ -39,7 +39,7 @@ public class itemCollect : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D collision)
     {
         //if the tag is either fruit, scroll or airtag
-        if(collision.gameObject.tag == "Fruit" || collision.gameObject.tag == "Scroll" || collision.gameObject.tag == "AirTag" || collision.gameObject.tag == "Extra")
+        if(collision.gameObject.tag == "Scroll")
         {
             //gameObject SetActive false (which means it's not visible) and make the scroll text appear with the code
             collision.gameObject.SetActive(false);
@@ -47,6 +47,17 @@ public class itemCollect : MonoBehaviour
             collision.gameObject.GetComponent<ScrollTXT>().scrollText();
             //calling the CH void from the codeTXT script
             collision.gameObject.GetComponent<codeTXT>().codeButton();
+        }
+        else if (collision.gameObject.tag == "AirTag")
+        {
+            //gameObject SetActive false (which means it's not visible) and make the scroll text appear with the code
+            collision.gameObject.SetActive(false);
+            //calling the BST void from the ScrollTXT script
+            collision.gameObject.GetComponent<ScrollTXT>().scrollText();
+        }
+        else if(collision.gameObject.tag == "Fruit")
+        {
+            collision.gameObject.SetActive(false);
         }
     }
 }
