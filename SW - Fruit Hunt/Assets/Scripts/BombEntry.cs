@@ -16,9 +16,14 @@ public class BombEntry : MonoBehaviour
     // Start is called before the first frame update
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //if we're colliding with the gameObject with the tag "Bomb" and find the gameObject TimersCountdown, Rob dies.
-        if(collision.gameObject.CompareTag("Bomb") && FindAnyObjectByType<TimersCountdown>().robDIED)
+        //if we're colliding with the gameObject with the tag "Bomb" and if rob.DIED is true under TimersCountdown...
+        if(collision.gameObject.CompareTag("Bomb") && FindAnyObjectByType<TimersCountdown>().robDIED
+        && FindAnyObjectByType<TimersCountdown>().appleCollected && FindAnyObjectByType<TimersCountdown>().cherryCollected
+        && FindAnyObjectByType<TimersCountdown>().grapeCollected && FindAnyObjectByType<TimersCountdown>().strawberryCollected
+        && FindAnyObjectByType<TimersCountdown>().kiwiCollected && FindAnyObjectByType<TimersCountdown>().bananaCollected
+        && FindAnyObjectByType<TimersCountdown>().lemonCollected && FindAnyObjectByType<TimersCountdown>().watermelonCollected)
         {
+            //Debug "Open Bomb"
             Debug.Log("Open Bomb");
             //BombDefusal will appear
             BombDefusal.SetActive(true);

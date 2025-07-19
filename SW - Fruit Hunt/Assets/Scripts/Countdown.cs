@@ -13,6 +13,14 @@ public class TimersCountdown : MonoBehaviour
     public bool cnmTalked;
     public bool kidTalked;
     public bool robDIED;
+    public bool appleCollected;
+    public bool cherryCollected;
+    public bool grapeCollected;
+    public bool strawberryCollected;
+    public bool kiwiCollected;
+    public bool lemonCollected;
+    public bool bananaCollected;
+    public bool watermelonCollected;
     public float totalLapTime;
     public float totalCountdownTime;
 

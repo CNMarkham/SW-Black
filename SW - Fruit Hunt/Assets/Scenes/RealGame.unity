@@ -17256,6 +17256,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1558405300}
     m_Modifications:
+    - target: {fileID: 3256064665225810532, guid: 295e819650a63784185fc3d55ce9e650,
+        type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442653431165992162, guid: 295e819650a63784185fc3d55ce9e650,
+        type: 3}
+      propertyPath: sortingLayer
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6075975974975622417, guid: 295e819650a63784185fc3d55ce9e650,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17310,6 +17320,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PF Props Stair Broken M
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975976084253374, guid: 295e819650a63784185fc3d55ce9e650,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6223746544896227164, guid: 295e819650a63784185fc3d55ce9e650,
+        type: 3}
+      propertyPath: sortingLayer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20624,6 +20644,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1558405300}
     m_Modifications:
+    - target: {fileID: 3256064665225810532, guid: 6bc7a266104dec640a8bc2ab2e5cd968,
+        type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442653431165992162, guid: 6bc7a266104dec640a8bc2ab2e5cd968,
+        type: 3}
+      propertyPath: sortingLayer
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6075975974975622417, guid: 6bc7a266104dec640a8bc2ab2e5cd968,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20678,6 +20708,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PF Props Stair Broken L
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975976084253374, guid: 6bc7a266104dec640a8bc2ab2e5cd968,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6223746544896227164, guid: 6bc7a266104dec640a8bc2ab2e5cd968,
+        type: 3}
+      propertyPath: sortingLayer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34052,7 +34092,7 @@ PrefabInstance:
     - target: {fileID: 4645257615198234320, guid: 4d0806bfbab85aa4bb6b62fd57e602fb,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5062480838961212805, guid: 4d0806bfbab85aa4bb6b62fd57e602fb,
         type: 3}
@@ -35019,6 +35059,14 @@ MonoBehaviour:
   cnmTalked: 0
   kidTalked: 0
   robDIED: 0
+  appleCollected: 0
+  cherryCollected: 0
+  grapeCollected: 0
+  strawberryCollected: 0
+  kiwiCollected: 0
+  lemonCollected: 0
+  bananaCollected: 0
+  watermelonCollected: 0
   totalLapTime: 500
   totalCountdownTime: 0
 --- !u!4 &1051967228
@@ -35297,6 +35345,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1135181359}
   - {fileID: 1573204343}
   - {fileID: 92898328}
   - {fileID: 1480483728}
@@ -35304,7 +35353,6 @@ Transform:
   - {fileID: 22755810}
   - {fileID: 253382170}
   - {fileID: 963445038}
-  - {fileID: 1135181359}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1061765286
