@@ -4,6 +4,15 @@ using UnityEngine;
 
 public class itemCollect : MonoBehaviour
 {
+    public GameObject Apple;
+    public GameObject Cherry;
+    public GameObject Grape;
+    public GameObject Strawberry;
+    public GameObject Kiwi;
+    public GameObject Lemon;
+    public GameObject Banana;
+    public GameObject Watermelon;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -58,6 +67,38 @@ public class itemCollect : MonoBehaviour
         else if(collision.gameObject.tag == "Fruit")
         {
             collision.gameObject.SetActive(false);
+            if (collision.gameObject == Apple)
+            {
+                FindAnyObjectByType<TimersCountdown>().appleCollected = true;
+            }
+            else if (collision.gameObject == Cherry)
+            {
+                FindAnyObjectByType<TimersCountdown>().cherryCollected = true;
+            }
+            else if (collision.gameObject == Grape)
+            {
+                FindAnyObjectByType<TimersCountdown>().grapeCollected = true;
+            }
+            else if (collision.gameObject == Strawberry)
+            {
+                FindAnyObjectByType<TimersCountdown>().strawberryCollected = true;
+            }
+            else if (collision.gameObject == Kiwi)
+            {
+                FindAnyObjectByType<TimersCountdown>().kiwiCollected = true;
+            }
+            else if (collision.gameObject == Lemon)
+            {
+                FindAnyObjectByType<TimersCountdown>().lemonCollected = true;
+            }
+            else if (collision.gameObject == Banana)
+            {
+                FindAnyObjectByType<TimersCountdown>().bananaCollected = true;
+            }
+            else if (collision.gameObject == Watermelon)
+            {
+                FindAnyObjectByType<TimersCountdown>().watermelonCollected = true;
+            }
         }
     }
 }
