@@ -25,7 +25,7 @@ public class EnemyHealth : MonoBehaviour
         {
 
             //Minus 10 from enemyHealth.
-            enemyHealth -= 10;
+            enemyHealth -= 20;
             //add his direction to his position
             direction = transform.position - collision.transform.position;
             //add direction to Rob's current position
