@@ -548,7 +548,7 @@ GameObject:
   - component: {fileID: 423932883}
   m_Layer: 0
   m_Name: adventure backstory music
-  m_TagString: Untagged
+  m_TagString: Music
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2221,14 +2221,14 @@ MonoBehaviour:
     1. Use keys WASD or arrows to move your player.
 
     2. Talk to
-    the first 3 tomatoes you see ONLY.
+    ONLY the first 3 tomatoes you see.
 
     3. Collect fruits and codes that you
     can find by colliding with them/walking into (or "on") them
 
     4. Press the
-    "codes" button to see your current collected codes. It''ll be useful for after
-    the fight.
+    "codes" button to see your current collected codes. It will also appear during
+    the defusal.
 
     5. Don''t waste time. After 500 secs you''ll lose
 

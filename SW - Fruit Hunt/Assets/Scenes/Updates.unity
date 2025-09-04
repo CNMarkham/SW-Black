@@ -1124,7 +1124,7 @@ GameObject:
   - component: {fileID: 739809260}
   m_Layer: 0
   m_Name: adventure backstory music
-  m_TagString: Untagged
+  m_TagString: Music
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1394,39 +1394,40 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Update 15.7 - Music
+  m_Text: 'Update 15.7 - Music has been added
 
-    Update 13.9 - Keypad works with right code.
+    Update 13.9 - Keypad works with
+    right code.
 
-    Update
-    12.5 - Created ability to win and lose
+    Update 12.5 - Created ability to win and lose
 
-    Update 11.8 - Defusal system is created.
+    Update 11.8
+    - Defusal system is created.
 
-    Update
-    10.6 - Map was reworked
-
-    Update 9.2 - Chest works.
-
-    Update 8.3 - A new
-    log is created.
-
-    Update 7.1 - Shooting speed enhanced.
-
-    Update 5.0 -
-    Shooting length enhanced
-
-    Update 4.7 - Airtag and book added.
+    Update 10.6 - Map was reworked
 
     Update
-    3.6 - ??? ??? ?????
+    9.2 - Chest works.
 
-    Update 2.9 - Arrow keys work
+    Update 8.3 - A new log is created.
 
-    Update 1.2 - More
-    lore dropped
+    Update 7.1 -
+    Shooting speed enhanced.
 
-    Update 0.8 - New fruits added.'
+    Update 5.0 - Shooting length enhanced
+
+    Update
+    4.7 - Airtag and book added.
+
+    Update 3.6 - ??? ??? ?????
+
+    Update 2.9
+    - Arrow keys work
+
+    Update 1.2 - More lore dropped
+
+    Update 0.8 - New fruits
+    added.'
 --- !u!222 &826663234
 CanvasRenderer:
   m_ObjectHideFlags: 0
