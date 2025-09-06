@@ -807,14 +807,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 572241060}
-        m_TargetAssemblyTypeName: MenuScene, Assembly-CSharp
+      - m_Target: {fileID: 1917828560}
+        m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
         m_MethodName: OnMouseDown
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2781,6 +2781,7 @@ GameObject:
   - component: {fileID: 1917828558}
   - component: {fileID: 1917828557}
   - component: {fileID: 1917828556}
+  - component: {fileID: 1917828560}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2875,6 +2876,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1917828560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917828555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db3c45cf35437d544aa5811057164c1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1920549287
 GameObject:
   m_ObjectHideFlags: 0

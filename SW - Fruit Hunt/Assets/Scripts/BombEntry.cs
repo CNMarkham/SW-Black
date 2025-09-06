@@ -69,10 +69,7 @@ public class BombEntry : MonoBehaviour
             Debug.Log("Yay! You got it.");
             Invoke("LoadSceneDelay", 1f);
         }
-        else
-        {
-            Debug.Log("Wrong code.");
-        }
+
     }
 
     private void LoadSceneDelay()

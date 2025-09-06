@@ -11,6 +11,7 @@ public class EnemyHealth : MonoBehaviour
     public GameObject watermelon;
     public GameObject watermelonScroll;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -44,6 +45,7 @@ public class EnemyHealth : MonoBehaviour
                 watermelon.SetActive(true);
                 //make the Watermelon's scroll appear
                 watermelonScroll.SetActive(true);
+       
             }
         }
     }

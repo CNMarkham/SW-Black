@@ -3,13 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class updateScene: MonoBehaviour
+public class SceneChange : MonoBehaviour
 {
-    
-    //once clicked...
-    public void OnMouseDown()
+    public void OnMouseDown(int scene)
     {
         //load scene 5/the update log scene
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(scene);
     }
 }

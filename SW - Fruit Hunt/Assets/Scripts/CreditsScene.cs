@@ -7,7 +7,7 @@ public class CreditsScene : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        //load scene 0/menu when someone presses the "back" button.
+        //load scene 8/credits scene
         SceneManager.LoadScene(8);
     }
 }

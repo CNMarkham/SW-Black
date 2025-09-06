@@ -5,21 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class StartScene : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
+    
     public void OnMouseDown()
     {
-        //load scene 1/the game!!!!!!!!!!!!!!!!! it's the main plot point of this project!!!!!!!!!!!!!!!!!!!!!
+        //load scene 1/the game. it's the main plot point of this project.
         SceneManager.LoadScene(1);
     }
 }

@@ -28,6 +28,7 @@ public class TimersCountdown : MonoBehaviour
     void Update()
     {
         //making lapTime.text the totalLapTime's value
+        if(lapTime !=null)
         lapTime.text = Mathf.Round(totalLapTime).ToString();
         //startCountdown.text = Mathf.Round(totalCountdownTime).ToString();
 
@@ -53,7 +54,7 @@ public class TimersCountdown : MonoBehaviour
 
     public void SpawnRob()
     {
-        if(helgaTalked && kidTalked && cnmTalked)
+        if(helgaTalked && kidTalked && cnmTalked && FindAnyObjectByType<TimersCountdown>().robDIED == false)
         {
             robParent.SetActive(true);
         }

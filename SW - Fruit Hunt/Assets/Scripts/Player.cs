@@ -32,6 +32,7 @@ namespace Cainos.PixelArtTopDown_Basic
             //the currentHealth at the beginning of the game is the maxHealth/100
             currentHealth = maxHealth;
             //We set the value of the healthBar to project maxHealth/100
+            if(healthBar !=null)
             healthBar.SetMaxHealth(maxHealth);
             //heheSyndrome/Player's health is 100
             heheSyndrome = 100;
@@ -150,7 +151,7 @@ namespace Cainos.PixelArtTopDown_Basic
             if (collision.gameObject.tag == "Rob")
             {
                 //we take 10 damage from the player.
-                //TakeDamage(10);
+                TakeDamage(10);
                 //we broadcast this message to the console.
                 Debug.Log("You just lost health.");
 

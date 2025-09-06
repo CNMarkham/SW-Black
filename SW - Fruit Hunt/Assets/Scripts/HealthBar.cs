@@ -11,10 +11,6 @@ public class HealthBar : MonoBehaviour
 
     public Image fill;
 
-    public void Start()
-    {
-        
-    }
     public void SetMaxHealth(int health)
     {
         Debug.Log("setting max health");
