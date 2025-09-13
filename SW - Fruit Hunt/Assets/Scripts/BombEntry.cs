@@ -23,8 +23,7 @@ public class BombEntry : MonoBehaviour
         && FindAnyObjectByType<TimersCountdown>().kiwiCollected && FindAnyObjectByType<TimersCountdown>().bananaCollected
         && FindAnyObjectByType<TimersCountdown>().lemonCollected && FindAnyObjectByType<TimersCountdown>().watermelonCollected)
         {
-            //Debug "Open Bomb"
-            Debug.Log("Open Bomb");
+
             //BombDefusal will appear
             BombDefusal.SetActive(true);
 
@@ -66,7 +65,6 @@ public class BombEntry : MonoBehaviour
 
         if (isCorrect) 
         {
-            Debug.Log("Yay! You got it.");
             Invoke("LoadSceneDelay", 1f);
         }
 

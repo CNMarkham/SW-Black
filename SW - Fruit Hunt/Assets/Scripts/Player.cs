@@ -101,11 +101,6 @@ namespace Cainos.PixelArtTopDown_Basic
 
             //getting the component Rigidbody2D.velocity is equal to the speed multiplied by dir
             GetComponent<Rigidbody2D>().velocity = speed * dir;
-
-            //if (Input.GetKeyDown(KeyCode.Space))
-            //{
-                //TakeDamage(10);
-            //}
         }
 
         //coroutinE!
@@ -113,7 +108,6 @@ namespace Cainos.PixelArtTopDown_Basic
         {
             //we set isAttacking to true in the beginning of this coroutine
             isAttacking = true;
-            //
             pineApple.GetComponent<CapsuleCollider2D>().enabled = true;
             //defining starting position used for lerping later.
             Vector3 startingPosition = pineApple.localPosition;
@@ -152,14 +146,10 @@ namespace Cainos.PixelArtTopDown_Basic
             {
                 //we take 10 damage from the player.
                 TakeDamage(10);
-                //we broadcast this message to the console.
-                Debug.Log("You just lost health.");
 
                 //if the variable "heheSyndrome" is less than or equal to zero...
                 if (heheSyndrome <= 0)
                 {
-                    //broadcast this message to the console
-                    Debug.Log("You just died.");
                     //load scene 0/the menu scene.
                     SceneManager.LoadScene(0);
                 }
@@ -168,7 +158,6 @@ namespace Cainos.PixelArtTopDown_Basic
 
         void TakeDamage(int damage)
         {
-            Debug.Log("damage");
             //the current health minuses the amount of health taking damage took
             currentHealth -= damage;
             //updates it by settubg the healthBar value to currentHealth.

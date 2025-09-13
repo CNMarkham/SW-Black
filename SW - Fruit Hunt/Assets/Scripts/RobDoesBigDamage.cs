@@ -17,16 +17,9 @@ public class RobDoesBigDamage : MonoBehaviour
     {
         if (collision.gameObject.tag == "Rob")
         {
-            //HealthBar.value -= 10;
-            
-            //once colliding with Rob, you get this message in the console...
-            Debug.Log("You just lost health.");            
-            
            //if your health/"heheSyndrome" is below or equal to 0...
            if(heheSyndrome <= 0)
            {
-               //get this message in your console
-               Debug.Log("You just died.");
                //and reload to scene 0/menu making the player restart the game.
                SceneManager.LoadScene(0);
            }
