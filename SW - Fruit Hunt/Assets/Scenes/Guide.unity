@@ -2193,8 +2193,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 21.4}
-  m_SizeDelta: {x: 950.7771, y: 469.817}
+  m_AnchoredPosition: {x: 0, y: 18}
+  m_SizeDelta: {x: 950.7771, y: 504.7709}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1740998902
 MonoBehaviour:
@@ -2216,24 +2216,28 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '
+  m_text: '1. Use the keys WASD or arrows to move your player around.
 
-    1. Use keys WASD or arrows to move your player.
+    2. Talk
+    to the first 3 tomatoes with dialogue that appears when nearby
 
-    2. Talk to
-    ONLY the first 3 tomatoes you see.
+    3. Collect
+    fruits and codes that you can find by colliding with them/walking into them,
+    they will disappear once collected
 
-    3. Collect fruits and codes that you
-    can find by colliding with them/walking into (or "on") them
+    4. Press the "codes" button to see your
+    current collected
 
-    4. Press the
-    "codes" button to see your current collected codes. It will also appear during
-    the defusal.
+    codes. It will also appear during the defusal, which you
+    will need
 
-    5. Don''t waste time. After 500 secs you''ll lose
+    to enter the codes, and one code will be able to difuse the bomb.
 
-    6. Press
-    the space bar to hit Rob during the fight.'
+    5.
+    Don''t waste time. After 500 seconds you will lose the game.
+
+    6. Press the
+    space bar and face Rob to hit him during the fight.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2260,8 +2264,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
-  m_fontSizeBase: 48
+  m_fontSize: 35.68
+  m_fontSizeBase: 35.68
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2296,7 +2300,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -70.828064, y: 51.51129, z: -72.11597, w: 0}
+  m_margin: {x: -70.828064, y: 81.90588, z: -72.11597, w: -12.157883}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3003,7 +3007,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 430.64}
+  m_AnchoredPosition: {x: 0, y: 401}
   m_SizeDelta: {x: 950.7771, y: 469.817}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2094424038

@@ -15841,6 +15841,7 @@ GameObject:
   - component: {fileID: 272469634}
   - component: {fileID: 272469636}
   - component: {fileID: 272469635}
+  - component: {fileID: 272469637}
   m_Layer: 5
   m_Name: fruit (1)
   m_TagString: Untagged
@@ -15864,7 +15865,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -131, y: 40}
+  m_AnchoredPosition: {x: -165, y: 27}
   m_SizeDelta: {x: 164.4213, y: 121.1249}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &272469635
@@ -15909,6 +15910,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 272469633}
   m_CullTransparentMesh: 1
+--- !u!114 &272469637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272469633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0c6fcdc6e3332f4891d30ab0b34ae16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  codeTxt: 
+  fruit: Apple
+  TextCode: {fileID: 0}
+  bombCode: {fileID: 0}
+  code: {fileID: 0}
 --- !u!1001 &272903345
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16487,8 +16505,8 @@ Transform:
   m_GameObject: {fileID: 293204810}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.28, y: 0.45, z: -0.0030509708}
-  m_LocalScale: {x: 0.90999997, y: 0.3967995, z: 1.618929}
+  m_LocalPosition: {x: 0.28, y: 0.7634, z: -0.0030509708}
+  m_LocalScale: {x: 0.90999997, y: 0.5274346, z: 1.618929}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 136223267}
@@ -16607,9 +16625,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.005645113, y: 0.3170625}
+  m_Offset: {x: -0.00066390407, y: 0.0549076}
   serializedVersion: 2
-  m_Radius: 0.37275726
+  m_Radius: 0.7339368
 --- !u!60 &293204817
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -16960,6 +16978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codeTxt: 7542
+  fruit: Cherry
   TextCode: {fileID: 391940285}
   bombCode: {fileID: 1079130710}
   code: {fileID: 1396576741}
@@ -19053,7 +19072,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.162262, y: 40.00001}
+  m_AnchoredPosition: {x: -4.162262, y: 27.000011}
   m_SizeDelta: {x: 164.4213, y: 121.1249}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &391940285
@@ -19103,6 +19122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codeTxt: 
+  fruit: Cherry
   TextCode: {fileID: 0}
   bombCode: {fileID: 0}
   code: {fileID: 0}
@@ -19143,7 +19163,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1590921236}
   - {fileID: 1795974817}
   - {fileID: 573916451}
   - {fileID: 210285045}
@@ -22435,7 +22454,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -130.99995, y: -8.814068}
+  m_AnchoredPosition: {x: -165, y: -21.814098}
   m_SizeDelta: {x: 164.4213, y: 121.1249}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &512390257
@@ -22485,6 +22504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codeTxt: 
+  fruit: Strawberry
   TextCode: {fileID: 0}
   bombCode: {fileID: 0}
   code: {fileID: 0}
@@ -24164,6 +24184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codeTxt: 5764
+  fruit: Strawberry
   TextCode: {fileID: 512390257}
   bombCode: {fileID: 543672004}
   code: {fileID: 1396576741}
@@ -24541,6 +24562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codeTxt: 4792
+  fruit: Kiwi
   TextCode: {fileID: 590074810}
   bombCode: {fileID: 647089389}
   code: {fileID: 1396576741}
@@ -24882,7 +24904,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -130.99995, y: -56.10565}
+  m_AnchoredPosition: {x: -165, y: -69.10565}
   m_SizeDelta: {x: 164.4213, y: 121.1249}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &590074810
@@ -24932,6 +24954,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codeTxt: 
+  fruit: Banana
   TextCode: {fileID: 0}
   bombCode: {fileID: 0}
   code: {fileID: 0}
@@ -32914,7 +32937,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.162262, y: -8.814091}
+  m_AnchoredPosition: {x: -4.16227, y: -21.8141}
   m_SizeDelta: {x: 164.4213, y: 121.1249}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &951577125
@@ -32964,6 +32987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codeTxt: 
+  fruit: Kiwi
   TextCode: {fileID: 0}
   bombCode: {fileID: 0}
   code: {fileID: 0}
@@ -37271,7 +37295,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -110}
+  m_AnchoredPosition: {x: -4.16226, y: -69.106}
   m_SizeDelta: {x: 119.6, y: 35.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1103185174
@@ -37863,8 +37887,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 130.91342, y: -8.814068}
-  m_SizeDelta: {x: 164.4213, y: 121.1249}
+  m_AnchoredPosition: {x: 155, y: -21.814098}
+  m_SizeDelta: {x: 201.6743, y: 121.1249}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1129768955
 MonoBehaviour:
@@ -37913,6 +37937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codeTxt: 
+  fruit: Lemon
   TextCode: {fileID: 0}
   bombCode: {fileID: 0}
   code: {fileID: 0}
@@ -38884,6 +38909,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codeTxt: 3168
+  fruit: Grape
   TextCode: {fileID: 1129768955}
   bombCode: {fileID: 1197598796}
   code: {fileID: 1396576741}
@@ -39882,6 +39908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codeTxt: 8037
+  fruit: Watermelon
   TextCode: {fileID: 1753858650}
   bombCode: {fileID: 999954222}
   code: {fileID: 1396576741}
@@ -46421,6 +46448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codeTxt: 0934
+  fruit: Apple
   TextCode: {fileID: 272469635}
   bombCode: {fileID: 570286248}
   code: {fileID: 1396576741}
@@ -50303,7 +50331,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1574545894
 RectTransform:
   m_ObjectHideFlags: 0
@@ -50324,15 +50352,14 @@ RectTransform:
   - {fileID: 1129768954}
   - {fileID: 590074809}
   - {fileID: 1753858649}
-  - {fileID: 1688463152}
   - {fileID: 1798403482}
   - {fileID: 1103185173}
   m_Father: {fileID: 1125078727}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 400, y: 200}
-  m_SizeDelta: {x: 466.9, y: 283.2}
+  m_AnchoredPosition: {x: 419, y: 223}
+  m_SizeDelta: {x: 539.5717, y: 246.077}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1574545895
 MonoBehaviour:
@@ -50782,112 +50809,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1589319986}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1590921234
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1590921236}
-  - component: {fileID: 1590921235}
-  - component: {fileID: 1590921237}
-  m_Layer: 0
-  m_Name: emma
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1590921235
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1590921234}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -44025399
-  m_SortingLayer: 2
-  m_SortingOrder: 4
-  m_Sprite: {fileID: 21300000, guid: c01a277cf6957724cbd34c392aea32eb, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 3.08, y: 4.62}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1590921236
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1590921234}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.17364816, z: -0, w: 0.9848078}
-  m_LocalPosition: {x: 11.174, y: -1.0349998, z: -0.0030509708}
-  m_LocalScale: {x: 0.40000007, y: 0.4, z: 0.40000007}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 392457136}
-  m_LocalEulerAnglesHint: {x: 0, y: 20, z: 0}
---- !u!95 &1590921237
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1590921234}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 72c311a03444d204dacb45e2ca8b40b1, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1593916610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51768,6 +51689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codeTxt: 1207
+  fruit: Banana
   TextCode: {fileID: 1673642519}
   bombCode: {fileID: 146383027}
   code: {fileID: 1396576741}
@@ -52408,7 +52330,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 130.91344, y: 40.00001}
+  m_AnchoredPosition: {x: 155, y: 27.000011}
   m_SizeDelta: {x: 164.4213, y: 121.1249}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1673642519
@@ -52458,6 +52380,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codeTxt: 
+  fruit: Grape
   TextCode: {fileID: 0}
   bombCode: {fileID: 0}
   code: {fileID: 0}
@@ -57430,9 +57353,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.000022888184, y: 0}
   m_SizeDelta: {x: 119.6, y: 35.95}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.50000006, y: 0.5}
 --- !u!114 &1675489134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57549,102 +57472,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1686648585}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1688463151
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1688463152}
-  - component: {fileID: 1688463155}
-  - component: {fileID: 1688463154}
-  - component: {fileID: 1688463153}
-  m_Layer: 5
-  m_Name: fruit (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1688463152
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1688463151}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1574545894}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 130.91342, y: -56.10565}
-  m_SizeDelta: {x: 164.4213, y: 121.1249}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1688463153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1688463151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 28
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 61
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: ????
---- !u!114 &1688463154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1688463151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0c6fcdc6e3332f4891d30ab0b34ae16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  codeTxt: 
-  TextCode: {fileID: 0}
-  bombCode: {fileID: 0}
-  code: {fileID: 0}
---- !u!222 &1688463155
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1688463151}
-  m_CullTransparentMesh: 1
 --- !u!1001 &1688835793
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58929,6 +58756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codeTxt: 1842
+  fruit: Lemon
   TextCode: {fileID: 951577125}
   bombCode: {fileID: 749317366}
   code: {fileID: 1396576741}
@@ -59350,8 +59178,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.162262, y: -56.10569}
-  m_SizeDelta: {x: 164.4213, y: 121.1249}
+  m_AnchoredPosition: {x: 155, y: -69.106}
+  m_SizeDelta: {x: 228.4335, y: 121.1249}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1753858650
 MonoBehaviour:
@@ -59400,6 +59228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codeTxt: 
+  fruit: Watermelon
   TextCode: {fileID: 0}
   bombCode: {fileID: 0}
   code: {fileID: 0}
@@ -60794,7 +60623,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -100.95, y: 58.91}
+  m_AnchoredPosition: {x: -142, y: 45.018}
   m_SizeDelta: {x: 321.51, y: 157.1632}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1798403483
