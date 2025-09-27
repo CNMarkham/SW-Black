@@ -25,12 +25,12 @@ public class EnemyHealth : MonoBehaviour
         if(collision.gameObject.tag == "Pineapple")
         {
 
-            //Minus 10 from enemyHealth.
+            //Minus 20 from enemyHealth.
             enemyHealth -= 20;
             //add his direction to his position
             direction = transform.position - collision.transform.position;
             //add direction to Rob's current position
-            transform.position += direction * 1.3f;
+            transform.position += direction * 0.9f;
             //if enemyHealth is below or equal to zero...
             if(enemyHealth <= 0)
             {

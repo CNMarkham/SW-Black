@@ -3,14 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System;
 
 public class HealthBar : MonoBehaviour
 {
     public Slider slider;
     public Gradient gradient;
-
+    public int curHealth;
     public Image fill;
+    public bool canChange;
+    public void Update()
+    {
+        slider.value = curHealth;
 
+    }
     public void SetMaxHealth(int health)
     {
         Debug.Log("setting max health");
@@ -18,7 +24,7 @@ public class HealthBar : MonoBehaviour
         slider.maxValue = health;
         //value of the slider is the health.
         slider.value = health;
-
+        curHealth = health;
         //the fill colour is the gradient that i have created.
         fill.color = gradient.Evaluate(1f);
     }
@@ -31,12 +37,18 @@ public class HealthBar : MonoBehaviour
 
         //like before, the fill's colour is equal to the gradient i have created and set it to. setting the og colour to the colour selected.
         fill.color = gradient.Evaluate(slider.normalizedValue);
-
+        curHealth = health;
         //if the slider's value is less than or equal to 0...
-        if(slider.value <= 0)
+        if (slider.value <= 0)
         {
             //load scene 0 (menu) so you have to restart the game.
             SceneManager.LoadScene(0);
         }
+    }
+
+    public void ShowChange()
+    {
+        Debug.Log(slider.value);
+
     }
 }

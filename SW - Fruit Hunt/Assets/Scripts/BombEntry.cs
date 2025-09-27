@@ -10,6 +10,7 @@ public class BombEntry : MonoBehaviour
 {
     public GameObject BombDefusal;
     public TextMeshProUGUI displayedTxt;
+    public GameObject[] textHighlight;
     public int[] code = { 0, 0, 0, 0 };
     public int[] correctCode = { 1, 2, 0, 7 };
     public int counter;
@@ -33,6 +34,7 @@ public class BombEntry : MonoBehaviour
     public void UpdateCode()
     {
         displayedTxt.text = string.Join("", code);
+  
 
     }
     // Make the player unable to move when the BombDefusal is open
@@ -44,19 +46,30 @@ public class BombEntry : MonoBehaviour
     public void Backspace()
     {
         code[counter] = 0;
+        textHighlight[counter].SetActive(false);
         UpdateCode();
         if (counter == 0)
+        {
+            textHighlight[counter].SetActive(true);
             return;
+        }  
         counter--;
+        textHighlight[counter].SetActive(true);
+
 
     }
     public void Keypad(int number)
     {
         code[counter] = number;
+        textHighlight[counter].SetActive(false);
         UpdateCode();
         if (counter == 3)
+        {
+            textHighlight[counter].SetActive(true);
             return;
+        }
         counter++;
+        textHighlight[counter].SetActive(true);
     }
 
     public void SubmitButton()

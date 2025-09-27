@@ -34,7 +34,8 @@ public class TimersCountdown : MonoBehaviour
 
         //Stop reading this
         //make totalLapTime minus Time.deltaTime's value
-        totalLapTime -= Time.deltaTime;
+        if(!robDIED)
+            totalLapTime -= Time.deltaTime;
 
         //if the total lap time is below or equal to 0...
         if (totalLapTime <= 0)
